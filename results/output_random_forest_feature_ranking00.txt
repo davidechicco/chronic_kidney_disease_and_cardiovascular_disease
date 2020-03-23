@@ -1,0 +1,2838 @@
+Lscript_dir: .
+Read data from file ../data/journal.pone.0199920.s002_EDITED.csv
+application of dplyr::select()
+Number of executions = 100
+[Execlution number 1 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.552839e-02       17.4104911
+CreatnineBaseline          2         1.041055e-02       12.5636529
+AgeBaseline                3         6.367925e-03        9.6013121
+sBPBaseline                4         3.943688e-03        9.6444438
+dBPBaseline                5         4.499025e-03        9.1932098
+DMmeds                     6         2.848510e-03        4.7106069
+Age 3 categories           7         1.940145e-03        2.5887807
+CholesterolBaseline        8         7.337846e-04        8.6928103
+HistoryCHD                 9         1.579396e-03        2.9809568
+HistoryDiabetes           10         1.221392e-03        3.1290772
+ACEIARB                   11         1.675983e-03        2.0344130
+HistoryVascular           12         1.921698e-03        1.6203075
+BMIBaseline               13        -2.861510e-04        7.4744729
+DLDmeds                   14         6.790475e-04        1.1327644
+HistorySmoking            15         2.570007e-04        1.2608753
+HTNmeds                   16         3.178425e-04        0.8972623
+Sex                       17         2.040802e-04        1.3936535
+HistoryObesity            18        -7.185745e-04        1.3969886
+HistoryHTN                19         2.222163e-04        0.7291953
+HistoryDLD                20         5.991970e-06        0.7567391
+[Execlution number 2 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         0.0173884833       17.5793632
+CreatnineBaseline          2         0.0125988677       12.0746347
+AgeBaseline                3         0.0071779883        9.9579607
+dBPBaseline                4         0.0043671877        9.0940550
+sBPBaseline                5         0.0034726391        9.5062000
+DMmeds                     6         0.0038033147        4.2630314
+CholesterolBaseline        7         0.0019704794        8.8539025
+Age 3 categories           8         0.0021101378        2.5902036
+HistoryDiabetes            9         0.0016948804        3.1788185
+HistoryVascular           10         0.0023056989        1.7585695
+HistoryCHD                11         0.0013878417        2.6315530
+BMIBaseline               12         0.0006257995        7.4660915
+Sex                       13         0.0010458798        1.3628504
+ACEIARB                   14         0.0004596769        1.7193496
+DLDmeds                   15         0.0007274461        1.2101120
+HTNmeds                   16         0.0009959895        0.8245781
+HistoryHTN                17         0.0007662040        0.7709094
+HistoryObesity            18         0.0003568794        1.3021917
+HistorySmoking            19         0.0004151468        1.2591145
+HistoryDLD                20        -0.0002279815        1.0286289
+[Execlution number 3 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.791237e-02       17.5301029
+CreatnineBaseline          2         9.804558e-03       12.3032322
+AgeBaseline                3         6.198771e-03        9.9971113
+dBPBaseline                4         4.630638e-03        8.7503961
+sBPBaseline                5         3.680531e-03        9.6399127
+DMmeds                     6         4.753632e-03        4.3201171
+Age 3 categories           7         3.265721e-03        2.7333852
+HistoryDiabetes            8         1.740383e-03        3.0171474
+BMIBaseline                9         6.366186e-04        7.6566859
+CholesterolBaseline       10         6.037255e-04        8.5466021
+HistoryCHD                11         1.006821e-03        2.7895506
+HistoryVascular           12         2.980384e-03        1.7500326
+Sex                       13         1.543959e-03        1.3591827
+ACEIARB                   14         1.814418e-04        1.8590459
+HistoryObesity            15         3.606053e-05        1.3805531
+HTNmeds                   16         3.105839e-04        0.8297684
+DLDmeds                   17         1.302054e-04        1.2021322
+HistoryDLD                18         1.763604e-04        0.8257097
+HistorySmoking            19        -1.269718e-04        1.0891102
+HistoryHTN                20         3.886468e-06        0.7787922
+[Execlution number 4 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.442284e-02       16.8387841
+CreatnineBaseline          2         1.122098e-02       12.2454900
+AgeBaseline                3         6.264348e-03        9.4404718
+dBPBaseline                4         4.435021e-03        9.0568016
+sBPBaseline                5         3.387494e-03        9.8400403
+DMmeds                     6         3.946214e-03        4.2792580
+BMIBaseline                7         2.027277e-03        7.5324093
+Age 3 categories           8         3.483617e-03        2.6433093
+HistoryDiabetes            9         1.586309e-03        3.3538399
+HistoryCHD                10         1.203600e-03        2.8271092
+HistoryVascular           11         1.969417e-03        1.8553636
+CholesterolBaseline       12        -2.166443e-05        8.6435290
+Sex                       13         1.196005e-03        1.3262142
+ACEIARB                   14        -6.664154e-05        1.8697000
+HistoryObesity            15         4.519707e-04        1.2652779
+HistoryHTN                16         1.066315e-03        0.7549579
+HTNmeds                   17         6.024693e-04        0.9010212
+DLDmeds                   18         1.554836e-04        1.1225283
+HistoryDLD                19         2.562949e-04        0.9264311
+HistorySmoking            20        -1.266554e-04        1.3188339
+[Execlution number 5 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.820354e-02       16.8523884
+CreatnineBaseline          2         1.142000e-02       12.3392649
+AgeBaseline                3         7.151106e-03       10.0007371
+sBPBaseline                4         3.739423e-03        9.7811290
+dBPBaseline                5         4.270243e-03        8.4453356
+DMmeds                     6         6.066295e-03        4.7022955
+CholesterolBaseline        7         1.805874e-03        8.7216747
+Age 3 categories           8         3.613016e-03        2.6409440
+HistoryCHD                 9         1.549307e-03        2.5716784
+HistoryVascular           10         1.700634e-03        1.4937808
+ACEIARB                   11         1.057770e-03        2.0107478
+HistoryDiabetes           12         7.171199e-04        3.2059321
+BMIBaseline               13         3.911229e-05        7.4766895
+Sex                       14         6.884801e-04        1.3042229
+HTNmeds                   15         7.945597e-04        0.9421233
+HistoryHTN                16         8.325860e-04        0.6895113
+DLDmeds                   17         3.582389e-04        1.2273040
+HistorySmoking            18        -1.900665e-04        1.4013386
+HistoryObesity            19        -2.273838e-04        1.2629414
+HistoryDLD                20        -8.244660e-05        0.8329298
+[Execlution number 6 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.636999e-02       17.7435488
+CreatnineBaseline          2         8.743383e-03       11.6115116
+AgeBaseline                3         6.303987e-03        9.7717943
+sBPBaseline                4         3.798271e-03        9.9970949
+dBPBaseline                5         3.969108e-03        9.0665414
+DMmeds                     6         3.749474e-03        4.3098820
+CholesterolBaseline        7         1.004542e-03        8.5249365
+HistoryCHD                 8         2.055756e-03        3.0355282
+HistoryDiabetes            9         1.391330e-03        3.0754817
+HistoryVascular           10         2.513723e-03        1.8415824
+Age 3 categories          11         1.714183e-03        2.5942963
+Sex                       12         7.548788e-04        1.3424398
+BMIBaseline               13        -7.100209e-05        7.6342392
+DLDmeds                   14         6.854633e-04        1.2499995
+ACEIARB                   15         3.007552e-04        1.8264137
+HTNmeds                   16         6.289511e-04        0.9240943
+HistoryObesity            17         3.428867e-04        1.2332172
+HistorySmoking            18         1.251205e-04        1.2873984
+HistoryDLD                19         4.621455e-04        0.8932672
+HistoryHTN                20         6.003596e-04        0.6499948
+[Execlution number 7 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         0.0171393583       16.3006741
+CreatnineBaseline          2         0.0119828946       12.4881964
+AgeBaseline                3         0.0059714305        9.4500914
+dBPBaseline                4         0.0035102022        9.1860633
+sBPBaseline                5         0.0024939960        9.6225569
+DMmeds                     6         0.0033830296        4.2140058
+Age 3 categories           7         0.0035876642        2.9092065
+HistoryDiabetes            8         0.0020128852        3.2867314
+BMIBaseline                9         0.0010779164        7.4248089
+HistoryCHD                10         0.0019257744        3.0438309
+HistoryVascular           11         0.0021966685        1.8308592
+CholesterolBaseline       12         0.0005690961        8.3126405
+Sex                       13         0.0017780112        1.5005788
+HistoryObesity            14         0.0009352029        1.4227809
+ACEIARB                   15         0.0001872508        1.9049935
+DLDmeds                   16         0.0006957903        1.1479052
+HistoryDLD                17         0.0006351982        0.9635295
+HistoryHTN                18         0.0005540861        0.8584740
+HistorySmoking            19         0.0000790183        1.1993766
+HTNmeds                   20         0.0005214843        0.8215385
+[Execlution number 8 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.644275e-02       17.7421199
+CreatnineBaseline          2         1.203127e-02       12.5625437
+AgeBaseline                3         4.250071e-03        9.3809138
+dBPBaseline                4         4.726291e-03        9.1955038
+sBPBaseline                5         2.111032e-03        9.5127845
+DMmeds                     6         3.919797e-03        4.3995656
+HistoryDiabetes            7         1.884942e-03        3.4016855
+HistoryVascular            8         2.192768e-03        1.7150423
+Age 3 categories           9         1.397185e-03        2.4734988
+HistoryCHD                10         9.028721e-04        2.7003352
+BMIBaseline               11         7.791072e-05        7.4560191
+CholesterolBaseline       12         7.495824e-05        8.4361388
+Sex                       13         7.652267e-04        1.3409514
+DLDmeds                   14         6.550018e-04        1.2209309
+HistoryObesity            15         5.560335e-04        1.3282934
+ACEIARB                   16        -1.914965e-05        1.9089232
+HistoryHTN                17         5.922627e-04        0.6832017
+HistoryDLD                18         2.724569e-04        0.6885025
+HTNmeds                   19         1.689311e-04        0.8934552
+HistorySmoking            20        -3.596384e-04        1.2648491
+[Execlution number 9 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         0.0159537092       17.2104653
+CreatnineBaseline          2         0.0104929036       11.8119303
+AgeBaseline                3         0.0057151587        9.8617668
+sBPBaseline                4         0.0039556374        9.6970006
+dBPBaseline                5         0.0037055015        8.8809572
+DMmeds                     6         0.0041403517        4.5444851
+HistoryDiabetes            7         0.0025291904        3.3092879
+Age 3 categories           8         0.0030533508        2.6707503
+CholesterolBaseline        9         0.0005717809        8.6188721
+HistoryCHD                10         0.0007858326        2.7874437
+HistoryVascular           11         0.0022399701        1.6686745
+BMIBaseline               12        -0.0001336362        7.7242661
+HistoryObesity            13         0.0007786558        1.3066675
+Sex                       14         0.0005956052        1.3363667
+HistoryHTN                15         0.0008729958        0.8352047
+ACEIARB                   16         0.0003271734        1.9028747
+HistorySmoking            17         0.0005961379        1.1748304
+DLDmeds                   18         0.0004891117        1.1981704
+HTNmeds                   19         0.0004282846        0.8545782
+HistoryDLD                20        -0.0003316137        0.8194159
+[Execlution number 10 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         0.0150690204       17.4434638
+CreatnineBaseline          2         0.0107252323       12.3815719
+AgeBaseline                3         0.0047454384        9.4951629
+sBPBaseline                4         0.0038553683        9.7996992
+dBPBaseline                5         0.0032864776        8.9170105
+DMmeds                     6         0.0038072544        4.4049387
+CholesterolBaseline        7         0.0014369943        8.4702485
+Age 3 categories           8         0.0021355057        2.5679617
+HistoryDiabetes            9         0.0014912457        3.3980604
+HistoryVascular           10         0.0020341289        1.7333565
+HistoryCHD                11         0.0006405680        2.8194269
+BMIBaseline               12         0.0001920312        7.6437249
+DLDmeds                   13         0.0008420349        1.1626880
+Sex                       14         0.0006138494        1.3463306
+ACEIARB                   15         0.0001648677        1.8805085
+HistoryHTN                16         0.0008392192        0.7415441
+HistoryDLD                17         0.0002940149        0.8962795
+HistorySmoking            18        -0.0004947335        1.4265539
+HTNmeds                   19         0.0005119825        0.8882871
+HistoryObesity            20        -0.0003057938        1.2985613
+[Execlution number 11 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         0.0171461674       16.5875886
+CreatnineBaseline          2         0.0086228519       12.4585985
+AgeBaseline                3         0.0059943137        9.2604905
+sBPBaseline                4         0.0037486857        9.5133688
+dBPBaseline                5         0.0038111422        8.9800809
+DMmeds                     6         0.0033899035        4.2388430
+Age 3 categories           7         0.0023609026        2.7768757
+HistoryCHD                 8         0.0008857804        3.0599413
+HistoryDiabetes            9         0.0005083234        3.5962093
+HistoryVascular           10         0.0024113328        1.6342025
+Sex                       11         0.0014059240        1.2822407
+CholesterolBaseline       12        -0.0001251588        8.9577068
+BMIBaseline               13        -0.0008975043        7.3828352
+ACEIARB                   14         0.0002642488        1.7400222
+HistoryObesity            15         0.0004869107        1.2755506
+DLDmeds                   16         0.0004150368        1.1732868
+HistorySmoking            17        -0.0001108257        1.3406138
+HistoryHTN                18         0.0004616706        0.7899415
+HTNmeds                   19         0.0004112546        0.8269059
+HistoryDLD                20         0.0001975435        0.9242315
+[Execlution number 12 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.602173e-02       17.6530739
+CreatnineBaseline          2         1.194033e-02       12.3132618
+AgeBaseline                3         6.291549e-03        9.6604602
+dBPBaseline                4         3.204152e-03        8.6632359
+sBPBaseline                5         2.918519e-03        9.6058860
+DMmeds                     6         3.980336e-03        4.4850350
+Age 3 categories           7         2.777149e-03        2.3865653
+CholesterolBaseline        8         5.309243e-04        8.5915643
+HistoryCHD                 9         1.331060e-03        2.6188605
+HistoryDiabetes           10         8.259352e-04        3.2454198
+HistoryVascular           11         1.961249e-03        1.9229381
+ACEIARB                   12         7.368051e-04        2.0178523
+BMIBaseline               13        -1.587243e-04        7.5397625
+Sex                       14         2.900006e-04        1.3574541
+HistoryObesity            15         8.649122e-06        1.2814062
+HTNmeds                   16         6.499775e-04        0.8395441
+DLDmeds                   17        -9.920650e-05        1.1830713
+HistoryHTN                18         3.050894e-04        0.6878864
+HistoryDLD                19        -1.057661e-04        0.8978765
+HistorySmoking            20        -4.418114e-04        1.2270831
+[Execlution number 13 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.628161e-02       17.1063555
+CreatnineBaseline          2         1.057368e-02       12.2548139
+AgeBaseline                3         5.827205e-03        9.7230264
+dBPBaseline                4         4.535652e-03        8.9013838
+sBPBaseline                5         3.247689e-03        9.6720512
+DMmeds                     6         5.010802e-03        4.5825653
+Age 3 categories           7         3.099452e-03        2.7517421
+HistoryDiabetes            8         1.212968e-03        3.2884664
+HistoryCHD                 9         1.352796e-03        2.7130850
+HistoryVascular           10         1.787856e-03        1.7360866
+CholesterolBaseline       11        -1.498820e-05        8.8746920
+Sex                       12         6.854404e-04        1.3315804
+ACEIARB                   13         3.889959e-04        1.8774665
+BMIBaseline               14        -6.705232e-04        7.4469973
+HistoryObesity            15         8.205718e-04        1.1731445
+DLDmeds                   16         4.348267e-04        1.3128864
+HTNmeds                   17         6.379170e-04        0.7770377
+HistorySmoking            18        -2.333774e-04        1.2464459
+HistoryDLD                19        -9.705858e-05        0.7915207
+HistoryHTN                20         1.069454e-04        0.7150701
+[Execlution number 14 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         0.0191150780       17.3434423
+CreatnineBaseline          2         0.0105711805       12.5434180
+AgeBaseline                3         0.0058019745        9.3080089
+sBPBaseline                4         0.0031127371        9.4499728
+dBPBaseline                5         0.0040383836        8.9268338
+DMmeds                     6         0.0064014790        4.8500315
+CholesterolBaseline        7         0.0021351917        8.5919387
+Age 3 categories           8         0.0016589243        2.8234255
+HistoryCHD                 9         0.0017878714        2.7350752
+HistoryDiabetes           10         0.0014083507        3.1687093
+HistoryVascular           11         0.0018754322        1.6531336
+BMIBaseline               12         0.0004726600        7.7450326
+Sex                       13         0.0012075273        1.3583307
+ACEIARB                   14         0.0001838964        1.7700856
+DLDmeds                   15         0.0006985937        1.0739694
+HTNmeds                   16         0.0006669043        0.8417187
+HistoryObesity            17        -0.0001455762        1.3139768
+HistorySmoking            18         0.0001480496        1.2517884
+HistoryDLD                19         0.0004294158        0.7089660
+HistoryHTN                20         0.0002534243        0.7358354
+[Execlution number 15 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.597086e-02       17.7794016
+CreatnineBaseline          2         1.272041e-02       11.9189092
+AgeBaseline                3         5.418325e-03        9.7721908
+sBPBaseline                4         3.444956e-03        9.3004096
+dBPBaseline                5         3.048627e-03        8.6118685
+DMmeds                     6         4.903940e-03        4.5196284
+CholesterolBaseline        7         1.340523e-03        8.7443068
+Age 3 categories           8         2.439915e-03        2.7872034
+HistoryDiabetes            9         1.580561e-03        3.1129297
+BMIBaseline               10         6.812378e-04        7.1969182
+HistoryCHD                11         1.091910e-03        3.1138668
+HistoryVascular           12         2.380022e-03        1.7358907
+ACEIARB                   13         1.186376e-03        1.8173809
+Sex                       14         5.637258e-04        1.2416769
+HistoryHTN                15         5.994311e-04        0.6444306
+HistoryObesity            16        -2.172429e-04        1.4339775
+HistorySmoking            17        -1.012294e-04        1.2801167
+DLDmeds                   18        -9.672108e-05        1.1044955
+HistoryDLD                19         3.767585e-05        0.8276690
+HTNmeds                   20         4.687739e-04        0.7990346
+[Execlution number 16 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.415158e-02       17.6174752
+CreatnineBaseline          2         9.087471e-03       11.9057435
+AgeBaseline                3         5.299785e-03       10.1250846
+dBPBaseline                4         3.645291e-03        9.4598569
+sBPBaseline                5         2.198231e-03        9.4826299
+DMmeds                     6         4.068485e-03        4.3328153
+Age 3 categories           7         2.494158e-03        2.5363906
+CholesterolBaseline        8         9.263125e-04        8.6087796
+HistoryCHD                 9         1.772601e-03        2.8838305
+HistoryDiabetes           10         1.494123e-03        3.1341644
+HistoryVascular           11         2.065093e-03        1.5652946
+BMIBaseline               12         4.465215e-04        7.6956583
+Sex                       13         8.958368e-04        1.4437366
+ACEIARB                   14         4.746394e-04        1.8118158
+HTNmeds                   15         1.290879e-03        0.7209680
+DLDmeds                   16         5.940023e-04        1.1508740
+HistoryObesity            17         2.521040e-04        1.2821151
+HistoryHTN                18         8.433484e-04        0.6882310
+HistorySmoking            19        -9.179225e-05        1.2799261
+HistoryDLD                20        -7.095685e-04        0.8931688
+[Execlution number 17 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.651460e-02       16.8370011
+CreatnineBaseline          2         9.199833e-03       12.0822621
+AgeBaseline                3         4.701260e-03        9.4304876
+dBPBaseline                4         4.250639e-03        9.3619426
+sBPBaseline                5         3.584588e-03        9.9359755
+DMmeds                     6         4.098795e-03        4.3622200
+Age 3 categories           7         2.229546e-03        2.8906658
+HistoryDiabetes            8         1.233955e-03        3.1724911
+CholesterolBaseline        9         6.721726e-04        8.3351502
+HistoryCHD                10         1.230414e-03        2.8655269
+HistoryVascular           11         1.669694e-03        1.4970258
+BMIBaseline               12         2.440366e-04        7.5749431
+ACEIARB                   13         6.408938e-04        1.9656858
+Sex                       14         8.260279e-04        1.3451160
+HTNmeds                   15         1.124588e-03        0.8948742
+HistoryHTN                16         1.088544e-03        0.8378554
+DLDmeds                   17        -1.379775e-05        1.1048659
+HistoryObesity            18        -3.976788e-04        1.3348760
+HistorySmoking            19        -4.215026e-05        1.2835467
+HistoryDLD                20         5.375288e-04        0.8037109
+[Execlution number 18 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.589749e-02       16.7233842
+CreatnineBaseline          2         1.034281e-02       12.7308021
+AgeBaseline                3         4.931595e-03        9.8578277
+sBPBaseline                4         4.393387e-03        9.4626105
+dBPBaseline                5         4.329946e-03        9.0759070
+DMmeds                     6         4.566754e-03        4.3167446
+CholesterolBaseline        7         2.303455e-03        8.8439736
+Age 3 categories           8         2.727790e-03        2.4540561
+HistoryCHD                 9         8.560433e-04        2.7707529
+BMIBaseline               10         2.587822e-04        7.7270948
+HistoryDiabetes           11         4.394207e-04        3.1216183
+HistoryVascular           12         2.008344e-03        1.6009055
+ACEIARB                   13         3.462398e-04        1.7863750
+HistoryHTN                14         1.055667e-03        0.8516793
+HistorySmoking            15         6.295710e-05        1.2923994
+HTNmeds                   16         7.754720e-04        0.8014066
+Sex                       17         5.971789e-05        1.2725478
+HistoryObesity            18        -2.745808e-04        1.3240196
+DLDmeds                   19        -4.049068e-06        1.1898527
+HistoryDLD                20        -2.598668e-04        0.9438163
+[Execlution number 19 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.736693e-02       17.7772327
+CreatnineBaseline          2         1.103310e-02       12.5087029
+AgeBaseline                3         5.328529e-03        9.6938147
+dBPBaseline                4         3.916582e-03        8.8462364
+sBPBaseline                5         3.810785e-03        9.5028289
+DMmeds                     6         4.722217e-03        4.5359015
+CholesterolBaseline        7         1.890508e-03        8.3947985
+HistoryDiabetes            8         2.216191e-03        3.2271415
+Age 3 categories           9         2.370833e-03        2.6171467
+BMIBaseline               10         9.771984e-04        7.9383824
+HistoryVascular           11         1.981597e-03        1.6061046
+HistoryCHD                12         7.673733e-04        2.9608239
+Sex                       13         1.018809e-03        1.2570480
+ACEIARB                   14         1.745849e-04        1.8313997
+DLDmeds                   15         5.102249e-04        1.0640846
+HistoryObesity            16         1.944169e-04        1.3302404
+HistorySmoking            17         3.594270e-04        1.2710121
+HistoryHTN                18         7.883961e-04        0.7507990
+HTNmeds                   19         5.078656e-04        0.8279383
+HistoryDLD                20        -5.214327e-05        0.8765147
+[Execlution number 20 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.385598e-02       17.3118986
+CreatnineBaseline          2         1.036471e-02       12.0570499
+AgeBaseline                3         7.199921e-03        9.4857077
+sBPBaseline                4         2.395258e-03        9.6677977
+dBPBaseline                5         3.691607e-03        9.2366221
+DMmeds                     6         6.177737e-03        4.3826277
+CholesterolBaseline        7         9.258049e-04        8.6384303
+Age 3 categories           8         2.347431e-03        2.7191071
+HistoryCHD                 9         1.291101e-03        2.8386230
+BMIBaseline               10         6.607108e-04        7.4592635
+HistoryDiabetes           11         6.945931e-04        3.0010869
+HistoryVascular           12         1.748373e-03        1.6046481
+Sex                       13         7.925183e-04        1.3235875
+HistoryObesity            14         6.451112e-04        1.3605593
+ACEIARB                   15         6.030256e-05        1.8551219
+DLDmeds                   16         6.025654e-04        1.3215446
+HistoryHTN                17         6.829327e-04        0.8136333
+HTNmeds                   18         5.944744e-04        0.8830796
+HistoryDLD                19         2.975138e-05        0.9179900
+HistorySmoking            20        -2.472469e-04        1.2132597
+[Execlution number 21 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         0.0168308606       17.1410943
+CreatnineBaseline          2         0.0092627416       12.1028442
+AgeBaseline                3         0.0054885715        9.7642670
+dBPBaseline                4         0.0045675721        9.0989080
+sBPBaseline                5         0.0024034531        9.7129502
+DMmeds                     6         0.0043064512        4.5018103
+CholesterolBaseline        7         0.0012440557        8.8424618
+BMIBaseline                8         0.0008654179        7.3555299
+Age 3 categories           9         0.0022258510        2.5932772
+HistoryCHD                10         0.0020376678        2.8551719
+HistoryVascular           11         0.0022362630        1.5084899
+HistoryDiabetes           12         0.0006255966        3.1975224
+ACEIARB                   13         0.0005005354        1.8054789
+HistorySmoking            14         0.0003077220        1.3283000
+Sex                       15         0.0001238426        1.3411373
+HTNmeds                   16         0.0006192730        0.7637732
+DLDmeds                   17         0.0001851864        1.0906655
+HistoryHTN                18         0.0003475954        0.7704470
+HistoryObesity            19        -0.0002835957        1.2904901
+HistoryDLD                20        -0.0001242355        0.8688855
+[Execlution number 22 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         0.0160382918       17.4709639
+CreatnineBaseline          2         0.0097360278       12.2402001
+AgeBaseline                3         0.0062805631        9.8336941
+dBPBaseline                4         0.0049701731        9.0085126
+sBPBaseline                5         0.0030510042        9.5291448
+DMmeds                     6         0.0045704170        4.4136440
+CholesterolBaseline        7         0.0012813918        8.6271111
+BMIBaseline                8         0.0009764816        7.5284052
+Age 3 categories           9         0.0022250278        2.4924711
+HistoryCHD                10         0.0016296083        3.0371353
+HistoryVascular           11         0.0022803942        1.7091193
+HistoryDiabetes           12         0.0008909934        3.1499311
+ACEIARB                   13         0.0005977087        1.6315578
+Sex                       14         0.0004262829        1.3441306
+HistoryHTN                15         0.0006997925        0.8422850
+HistoryObesity            16         0.0000254882        1.3964647
+HTNmeds                   17         0.0004936432        0.9509416
+DLDmeds                   18         0.0003703991        1.0042150
+HistorySmoking            19         0.0001136726        1.2412772
+HistoryDLD                20        -0.0001504529        0.9011507
+[Execlution number 23 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.649217e-02       17.6692631
+CreatnineBaseline          2         9.232511e-03       12.6355462
+AgeBaseline                3         5.639067e-03        9.5041707
+dBPBaseline                4         4.091956e-03        8.9129126
+sBPBaseline                5         3.313011e-03        9.9184518
+DMmeds                     6         3.502617e-03        4.6762014
+CholesterolBaseline        7         8.916826e-04        8.5631968
+Age 3 categories           8         2.750341e-03        2.5721647
+HistoryCHD                 9         1.305876e-03        2.7718946
+HistoryVascular           10         2.014336e-03        1.6919012
+HistoryDiabetes           11         5.314470e-04        3.2948751
+BMIBaseline               12        -3.558484e-04        7.5228596
+DLDmeds                   13         8.886025e-04        1.1157644
+HistoryObesity            14         2.661883e-04        1.3277402
+ACEIARB                   15        -5.159012e-05        1.9356154
+Sex                       16         3.272680e-04        1.1562092
+HistoryHTN                17         6.511737e-04        0.6387142
+HistoryDLD                18         5.101188e-04        0.8648431
+HistorySmoking            19        -3.464532e-05        1.2394359
+HTNmeds                   20         2.369226e-04        0.8965543
+[Execlution number 24 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.716015e-02       17.3025783
+CreatnineBaseline          2         9.035085e-03       11.8332687
+AgeBaseline                3         7.458857e-03        9.6354985
+sBPBaseline                4         3.440532e-03        9.6990103
+dBPBaseline                5         3.622557e-03        9.3550251
+DMmeds                     6         4.020494e-03        4.4081389
+CholesterolBaseline        7         1.566581e-03        8.4949704
+Age 3 categories           8         2.054044e-03        2.7671575
+HistoryDiabetes            9         1.870062e-03        3.0247385
+HistoryVascular           10         2.535529e-03        1.6573611
+HistoryCHD                11         1.171455e-03        2.4511891
+BMIBaseline               12         2.074207e-04        7.9194800
+Sex                       13         5.471448e-04        1.3113054
+ACEIARB                   14         1.302706e-06        1.7702342
+HistoryObesity            15         1.472059e-04        1.3436753
+HistorySmoking            16         2.541053e-04        1.1973293
+HistoryHTN                17         6.062928e-04        0.7545422
+HTNmeds                   18         4.777845e-04        0.7592099
+DLDmeds                   19        -3.863873e-04        1.0706785
+HistoryDLD                20        -5.112185e-04        0.9100195
+[Execlution number 25 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.650631e-02       16.8031897
+CreatnineBaseline          2         1.066302e-02       12.1752658
+AgeBaseline                3         5.832173e-03       10.0565392
+dBPBaseline                4         4.400638e-03        8.9207438
+sBPBaseline                5         3.215866e-03        9.3788676
+DMmeds                     6         3.598052e-03        4.1078877
+HistoryCHD                 7         2.140042e-03        2.8953873
+Age 3 categories           8         1.660856e-03        2.4737602
+HistoryVascular            9         1.452102e-03        1.5368768
+HistoryDiabetes           10         6.086363e-04        2.9839018
+BMIBaseline               11        -1.560888e-04        7.5171346
+Sex                       12         1.376697e-03        1.2840393
+CholesterolBaseline       13        -5.301221e-04        8.2940025
+ACEIARB                   14         4.110189e-04        1.8844809
+DLDmeds                   15         8.058220e-04        1.2060014
+HistoryObesity            16         1.800636e-04        1.3611845
+HTNmeds                   17         1.286569e-03        0.8583943
+HistoryHTN                18         1.369066e-03        0.8053999
+HistoryDLD                19         9.600505e-05        0.8156567
+HistorySmoking            20        -3.605535e-04        1.1775397
+[Execlution number 26 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.950453e-02       17.6060117
+CreatnineBaseline          2         1.071553e-02       11.8175151
+AgeBaseline                3         6.169157e-03        9.5125681
+sBPBaseline                4         4.168211e-03        9.5566741
+dBPBaseline                5         4.312839e-03        8.5961131
+DMmeds                     6         3.624219e-03        4.2735754
+CholesterolBaseline        7         1.251949e-03        8.6194433
+Age 3 categories           8         2.736480e-03        2.6900435
+HistoryDiabetes            9         1.930378e-03        3.5019269
+HistoryCHD                10         1.690825e-03        2.5695850
+HistoryVascular           11         1.958397e-03        1.7776682
+BMIBaseline               12        -1.582644e-04        7.6407691
+Sex                       13         9.974790e-04        1.4069143
+ACEIARB                   14         1.557027e-04        1.8011475
+DLDmeds                   15         4.127246e-04        1.2344014
+HistoryObesity            16         5.183770e-04        1.1332241
+HistoryHTN                17         1.214749e-03        0.7352143
+HTNmeds                   18         6.761161e-04        0.8421311
+HistorySmoking            19        -1.055956e-04        1.1288445
+HistoryDLD                20         2.282948e-05        0.8310001
+[Execlution number 27 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.589201e-02       17.5968601
+CreatnineBaseline          2         9.645760e-03       11.7632022
+AgeBaseline                3         4.305278e-03        9.7494745
+sBPBaseline                4         2.741657e-03        9.7526994
+dBPBaseline                5         3.909436e-03        8.5062394
+DMmeds                     6         4.539642e-03        4.4183078
+CholesterolBaseline        7         1.221819e-03        8.5783025
+Age 3 categories           8         3.550712e-03        2.6502482
+HistoryDiabetes            9         1.591889e-03        3.1071769
+HistoryCHD                10         1.330117e-03        2.9057370
+BMIBaseline               11         4.832705e-04        7.6372746
+HistoryVascular           12         1.742039e-03        1.5045775
+DLDmeds                   13         5.181125e-04        1.0814177
+ACEIARB                   14        -1.139284e-05        1.8386760
+HistorySmoking            15         1.892698e-04        1.3756633
+HistoryHTN                16         7.557094e-04        0.7768441
+Sex                       17         3.414213e-04        1.2243557
+HistoryObesity            18         6.765200e-06        1.3215927
+HTNmeds                   19         3.891851e-04        0.8059419
+HistoryDLD                20        -1.983927e-04        0.8489814
+[Execlution number 28 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.567427e-02       17.6973493
+CreatnineBaseline          2         1.061937e-02       11.5304579
+AgeBaseline                3         5.366835e-03        9.4067227
+dBPBaseline                4         4.813183e-03        8.9951177
+sBPBaseline                5         3.714729e-03        9.7393889
+DMmeds                     6         3.993947e-03        4.3274795
+CholesterolBaseline        7         9.383115e-04        8.5319042
+Age 3 categories           8         2.173720e-03        2.6154503
+HistoryDiabetes            9         1.905009e-03        3.2077942
+HistoryCHD                10         1.218191e-03        2.9294685
+HistoryVascular           11         2.074743e-03        1.6200748
+ACEIARB                   12         4.774394e-04        1.9673096
+BMIBaseline               13        -4.263975e-04        7.5968686
+Sex                       14         7.500290e-04        1.2625025
+HistoryObesity            15         7.981083e-06        1.3768378
+DLDmeds                   16         1.665096e-05        1.1857049
+HTNmeds                   17         9.290615e-05        0.8853346
+HistoryHTN                18         3.794885e-04        0.7472925
+HistorySmoking            19        -4.582292e-05        1.2257300
+HistoryDLD                20        -1.390920e-04        0.8569635
+[Execlution number 29 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         0.0176303682       17.0855164
+CreatnineBaseline          2         0.0099392568       12.2643121
+AgeBaseline                3         0.0058343556        9.5317675
+dBPBaseline                4         0.0045739349        8.9414252
+sBPBaseline                5         0.0031092539        9.6019147
+DMmeds                     6         0.0036146658        4.4159283
+CholesterolBaseline        7         0.0006491203        8.7341526
+Age 3 categories           8         0.0012959819        2.7299484
+HistoryCHD                 9         0.0007904501        2.8337498
+HistoryVascular           10         0.0026261644        1.8290714
+HistoryDiabetes           11         0.0005225417        3.2098114
+BMIBaseline               12         0.0003573636        7.6832869
+HistoryObesity            13         0.0007816777        1.3683801
+Sex                       14         0.0004813546        1.3693774
+ACEIARB                   15         0.0003849105        1.7990554
+HistoryHTN                16         0.0006392074        0.8033761
+DLDmeds                   17         0.0003939730        1.0126750
+HTNmeds                   18         0.0004906563        0.8003304
+HistorySmoking            19        -0.0001073687        1.2750038
+HistoryDLD                20         0.0001090131        0.8003230
+[Execlution number 30 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.546855e-02       17.7996431
+CreatnineBaseline          2         9.506634e-03       12.0492736
+AgeBaseline                3         5.901581e-03        9.4520710
+dBPBaseline                4         5.176230e-03        9.4673258
+sBPBaseline                5         4.310117e-03        9.9478919
+DMmeds                     6         4.554122e-03        4.3385851
+Age 3 categories           7         2.188018e-03        2.5471928
+BMIBaseline                8         1.013347e-03        7.3070751
+HistoryDiabetes            9         1.960560e-03        3.2661847
+HistoryCHD                10         1.094541e-03        2.6574655
+CholesterolBaseline       11         4.074004e-04        8.9325178
+HistoryVascular           12         1.978670e-03        1.6780881
+ACEIARB                   13         4.607865e-04        1.9148261
+HistoryHTN                14         6.823961e-04        0.8046309
+HTNmeds                   15         4.177677e-04        0.8748357
+HistoryObesity            16         2.049927e-04        1.3691709
+Sex                       17         2.484247e-04        1.2900828
+DLDmeds                   18         2.823130e-04        1.0397074
+HistoryDLD                19         3.346095e-04        0.7945872
+HistorySmoking            20         7.547223e-05        1.1980143
+[Execlution number 31 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.433479e-02       17.0871682
+CreatnineBaseline          2         1.058279e-02       12.0008482
+AgeBaseline                3         6.364065e-03       10.3066983
+dBPBaseline                4         3.946107e-03        8.8561137
+CholesterolBaseline        5         1.992729e-03        8.8881819
+DMmeds                     6         4.441298e-03        4.4201388
+sBPBaseline                7         1.945562e-03        9.4745135
+Age 3 categories           8         2.316050e-03        2.5935436
+HistoryCHD                 9         1.191429e-03        2.8861765
+HistoryDiabetes           10         9.831248e-04        3.3336257
+HistoryVascular           11         1.907677e-03        1.7857427
+BMIBaseline               12        -1.035142e-03        7.4422902
+Sex                       13         7.571324e-04        1.2955413
+ACEIARB                   14        -3.550114e-05        2.0024962
+HistoryObesity            15         9.822737e-05        1.4513431
+HistorySmoking            16         4.555199e-04        1.2719591
+HTNmeds                   17         9.384902e-04        0.8364460
+DLDmeds                   18         3.308662e-04        1.0609627
+HistoryHTN                19         6.629863e-04        0.7071871
+HistoryDLD                20         4.744919e-05        0.8985271
+[Execlution number 32 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.945990e-02       17.2064768
+CreatnineBaseline          2         9.995920e-03       12.3258470
+AgeBaseline                3         6.426407e-03        9.7115161
+sBPBaseline                4         4.757346e-03        9.4483051
+dBPBaseline                5         4.351634e-03        9.0704637
+DMmeds                     6         4.997404e-03        4.7417597
+CholesterolBaseline        7         1.423244e-03        9.0193960
+Age 3 categories           8         2.272146e-03        2.6482551
+BMIBaseline                9         9.818902e-04        7.5151335
+HistoryVascular           10         2.273817e-03        1.4540208
+HistoryDiabetes           11         1.037575e-03        3.0265276
+ACEIARB                   12         1.375638e-03        1.9591551
+HistoryCHD                13         5.805938e-04        2.7899315
+Sex                       14         1.291492e-03        1.2710329
+HistoryObesity            15        -2.645315e-04        1.3726144
+HistoryHTN                16         6.571643e-04        0.7604661
+HTNmeds                   17         7.728607e-04        0.7590034
+DLDmeds                   18        -2.944339e-05        1.0860655
+HistoryDLD                19         1.562289e-04        0.8392179
+HistorySmoking            20        -3.191432e-04        1.1337347
+[Execlution number 33 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.588071e-02       17.2148114
+CreatnineBaseline          2         1.061776e-02       12.0669678
+AgeBaseline                3         6.009306e-03        9.7289637
+dBPBaseline                4         3.652838e-03        9.0389008
+sBPBaseline                5         3.143712e-03        9.5013775
+DMmeds                     6         3.874656e-03        4.2749815
+Age 3 categories           7         3.183580e-03        2.3749897
+CholesterolBaseline        8         7.585135e-04        8.6556831
+HistoryCHD                 9         1.344388e-03        2.6778486
+HistoryDiabetes           10         1.089875e-03        3.2056712
+HistoryVascular           11         2.388982e-03        1.6394463
+BMIBaseline               12        -3.116123e-04        7.6499541
+HistorySmoking            13         5.178004e-04        1.2700963
+DLDmeds                   14         7.213855e-04        1.0780368
+Sex                       15         4.241905e-04        1.3575893
+ACEIARB                   16        -2.803201e-04        2.0204147
+HistoryObesity            17         4.063590e-04        1.2456470
+HistoryHTN                18         4.676736e-04        0.8454523
+HistoryDLD                19         5.915557e-05        0.8786556
+HTNmeds                   20         2.068392e-04        0.8400418
+[Execlution number 34 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         0.0166309900       16.9391129
+CreatnineBaseline          2         0.0102999682       12.6114936
+AgeBaseline                3         0.0065492469       10.1550766
+sBPBaseline                4         0.0041778129        9.5049468
+dBPBaseline                5         0.0035432501        9.1842167
+DMmeds                     6         0.0043436270        4.4371352
+Age 3 categories           7         0.0030160549        2.7843501
+CholesterolBaseline        8         0.0009685842        8.3955094
+HistoryCHD                 9         0.0020564225        2.8964095
+HistoryDiabetes           10         0.0016387980        3.1569938
+BMIBaseline               11         0.0009461097        7.4398890
+HistoryVascular           12         0.0022190203        1.5975429
+Sex                       13         0.0015441104        1.3520528
+ACEIARB                   14         0.0002555345        1.9683912
+DLDmeds                   15         0.0007521800        1.1891923
+HistoryObesity            16         0.0002946852        1.3152150
+HistoryHTN                17         0.0007535940        0.7444519
+HTNmeds                   18         0.0005913217        0.8604207
+HistorySmoking            19        -0.0002404139        1.2772367
+HistoryDLD                20        -0.0002550416        0.7052171
+[Execlution number 35 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.736662e-02       17.1473971
+CreatnineBaseline          2         1.197644e-02       12.0230134
+AgeBaseline                3         7.463535e-03        9.7438823
+dBPBaseline                4         4.038930e-03        8.6637150
+sBPBaseline                5         2.725119e-03        9.5027388
+DMmeds                     6         4.889845e-03        4.4679733
+CholesterolBaseline        7         1.550688e-03        8.7181120
+Age 3 categories           8         3.199786e-03        2.5576035
+HistoryCHD                 9         1.648136e-03        2.8590185
+HistoryDiabetes           10         1.528501e-03        3.1770914
+HistoryVascular           11         2.120239e-03        1.9022036
+ACEIARB                   12         5.965738e-04        1.6726014
+BMIBaseline               13        -1.797194e-04        7.2074278
+Sex                       14         1.085424e-03        1.2436866
+HistoryObesity            15         2.733792e-04        1.4090894
+HistorySmoking            16         2.346599e-04        1.2724218
+HistoryHTN                17         2.909033e-04        0.7811847
+DLDmeds                   18        -7.322402e-05        1.0883410
+HistoryDLD                19        -1.518732e-06        0.8208251
+HTNmeds                   20         1.750935e-04        0.8100381
+[Execlution number 36 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.732413e-02       17.4000033
+CreatnineBaseline          2         1.097405e-02       12.1136618
+AgeBaseline                3         7.642230e-03        9.6455980
+sBPBaseline                4         2.623019e-03        9.7018920
+dBPBaseline                5         3.801741e-03        8.8476108
+DMmeds                     6         3.890257e-03        4.2492468
+CholesterolBaseline        7         1.510455e-03        9.2354430
+Age 3 categories           8         3.434452e-03        2.7883272
+HistoryDiabetes            9         1.714242e-03        3.2149332
+HistoryCHD                10         1.529035e-03        3.0116741
+BMIBaseline               11         4.264084e-04        7.5930137
+HistoryVascular           12         2.277284e-03        1.7286756
+Sex                       13         1.185106e-03        1.3852889
+ACEIARB                   14        -2.159604e-04        1.8749239
+HTNmeds                   15         7.400418e-04        0.8345254
+DLDmeds                   16         1.777730e-04        1.1691796
+HistoryObesity            17        -2.375723e-05        1.2478937
+HistorySmoking            18         2.945706e-04        1.1430866
+HistoryHTN                19         3.782640e-04        0.7081058
+HistoryDLD                20        -1.360303e-04        0.8677297
+[Execlution number 37 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.647643e-02       17.1274973
+CreatnineBaseline          2         1.286266e-02       12.2859631
+AgeBaseline                3         6.338910e-03       10.0603121
+sBPBaseline                4         4.042427e-03        9.6491844
+dBPBaseline                5         4.035298e-03        9.0501690
+DMmeds                     6         4.425445e-03        4.4684830
+CholesterolBaseline        7         1.277373e-03        8.5465056
+Age 3 categories           8         2.655415e-03        2.6946133
+HistoryCHD                 9         1.452539e-03        2.9543641
+HistoryDiabetes           10         1.299460e-03        3.1714829
+HistoryVascular           11         2.276873e-03        1.7842189
+BMIBaseline               12         2.540559e-04        7.4907329
+DLDmeds                   13         8.120292e-04        1.1755449
+HistoryObesity            14         7.998010e-04        1.2755721
+Sex                       15         6.222490e-04        1.3488723
+ACEIARB                   16        -6.243254e-05        1.9084175
+HistoryHTN                17         9.550419e-04        0.8212945
+HistoryDLD                18         2.136125e-04        0.8893472
+HistorySmoking            19        -1.113737e-04        1.1535340
+HTNmeds                   20        -1.431333e-04        0.7736715
+[Execlution number 38 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         0.0176486579       17.4814085
+CreatnineBaseline          2         0.0107946532       12.5720591
+AgeBaseline                3         0.0067289809       10.2802225
+dBPBaseline                4         0.0045711708        9.1864499
+sBPBaseline                5         0.0027949972        8.9954039
+DMmeds                     6         0.0036265922        4.7066728
+CholesterolBaseline        7         0.0016054670        8.3167193
+Age 3 categories           8         0.0026079715        2.7982450
+BMIBaseline                9         0.0014771048        7.3731836
+HistoryCHD                10         0.0021985114        2.7970445
+HistoryVascular           11         0.0023281782        1.6622671
+HistoryDiabetes           12         0.0007111341        2.9954431
+ACEIARB                   13         0.0010345926        1.8488949
+Sex                       14         0.0013287430        1.2821492
+HistoryObesity            15         0.0006019201        1.2153456
+HistoryHTN                16         0.0007457543        0.8011813
+HTNmeds                   17         0.0006321060        0.8546067
+DLDmeds                   18         0.0003756423        1.0561898
+HistorySmoking            19        -0.0002270034        1.1442145
+HistoryDLD                20        -0.0004630556        0.7421087
+[Execlution number 39 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         0.0161810812       17.3366425
+CreatnineBaseline          2         0.0084073791       12.2591603
+AgeBaseline                3         0.0058211381        9.3500785
+sBPBaseline                4         0.0042295119        9.4197479
+dBPBaseline                5         0.0039399442        9.3384660
+DMmeds                     6         0.0036075719        4.2361596
+BMIBaseline                7         0.0016343571        7.4414343
+CholesterolBaseline        8         0.0010935086        8.3104593
+Age 3 categories           9         0.0027165838        2.7253389
+HistoryCHD                10         0.0020746199        2.9069704
+HistoryDiabetes           11         0.0010698234        3.3061527
+HistoryVascular           12         0.0026425463        1.7061241
+ACEIARB                   13         0.0008291530        1.8150306
+Sex                       14         0.0004153278        1.3014221
+HistorySmoking            15        -0.0001245786        1.2832605
+HistoryHTN                16         0.0005705401        0.7618439
+HTNmeds                   17         0.0005281520        0.8382919
+HistoryObesity            18        -0.0001283549        1.2003648
+DLDmeds                   19        -0.0004377538        1.1152525
+HistoryDLD                20        -0.0001896324        0.7455946
+[Execlution number 40 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.654580e-02       17.5336794
+CreatnineBaseline          2         1.031712e-02       12.5999455
+AgeBaseline                3         5.467926e-03        9.5947500
+dBPBaseline                4         4.477004e-03        8.9375249
+sBPBaseline                5         4.231757e-03        9.4189485
+DMmeds                     6         4.419097e-03        4.6578162
+CholesterolBaseline        7         7.295908e-04        8.6846444
+Age 3 categories           8         2.747834e-03        2.5689905
+HistoryCHD                 9         9.635052e-04        2.9877771
+HistoryDiabetes           10         8.195149e-04        3.0321739
+HistoryVascular           11         2.269402e-03        1.6928776
+BMIBaseline               12        -7.036674e-04        7.4820890
+ACEIARB                   13         1.308484e-04        1.7429809
+Sex                       14         3.092099e-04        1.3204022
+DLDmeds                   15         2.962866e-04        1.2639442
+HistoryHTN                16         4.795345e-04        0.7935346
+HistoryObesity            17         4.257074e-05        1.3071467
+HTNmeds                   18         4.763277e-04        0.7744793
+HistoryDLD                19        -4.255499e-04        0.8692186
+HistorySmoking            20        -5.809601e-04        1.1861793
+[Execlution number 41 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         0.0156264880       17.2568094
+CreatnineBaseline          2         0.0110606433       11.9663988
+AgeBaseline                3         0.0064277766        9.3210387
+dBPBaseline                4         0.0038297023        9.2157247
+sBPBaseline                5         0.0026741063        9.4098983
+DMmeds                     6         0.0049374411        4.6296683
+Age 3 categories           7         0.0034444694        2.5856177
+CholesterolBaseline        8         0.0007045918        8.4748874
+HistoryDiabetes            9         0.0013922407        3.1241375
+HistoryCHD                10         0.0011532494        2.7679233
+HistoryVascular           11         0.0017378738        1.8257305
+Sex                       12         0.0014705460        1.4001986
+BMIBaseline               13         0.0001535910        7.4385495
+ACEIARB                   14         0.0004558411        2.0117016
+DLDmeds                   15         0.0005573154        1.0866206
+HistoryObesity            16         0.0001737312        1.1818737
+HistoryHTN                17         0.0004673485        0.7892490
+HistorySmoking            18         0.0001182652        1.1721819
+HTNmeds                   19         0.0003775695        0.8136482
+HistoryDLD                20        -0.0005399625        0.9029188
+[Execlution number 42 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.586359e-02       17.9609124
+CreatnineBaseline          2         1.056040e-02       11.7414795
+AgeBaseline                3         5.521917e-03        9.5684606
+dBPBaseline                4         3.988975e-03        9.2028011
+sBPBaseline                5         3.532051e-03        9.4503771
+DMmeds                     6         3.918339e-03        4.1209276
+CholesterolBaseline        7         1.837395e-03        8.9929732
+Age 3 categories           8         2.371610e-03        2.8091957
+HistoryCHD                 9         1.614891e-03        2.9282304
+HistoryDiabetes           10         9.887533e-04        2.8978704
+HistoryVascular           11         1.934580e-03        1.6932719
+BMIBaseline               12         5.690333e-04        7.2718399
+ACEIARB                   13         9.262464e-04        1.9640506
+Sex                       14         9.674075e-04        1.3199148
+HistoryObesity            15         1.104930e-05        1.3482436
+DLDmeds                   16         3.614505e-05        1.1272202
+HistoryHTN                17         5.729553e-04        0.7077718
+HTNmeds                   18         1.167677e-04        0.7819831
+HistorySmoking            19        -7.251418e-04        1.1297912
+HistoryDLD                20        -2.963222e-04        0.8074812
+[Execlution number 43 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.473449e-02       16.8488571
+CreatnineBaseline          2         1.039145e-02       12.5922162
+AgeBaseline                3         6.329398e-03        9.7860009
+dBPBaseline                4         5.161596e-03        9.1122710
+sBPBaseline                5         3.323020e-03        9.3279061
+DMmeds                     6         3.582349e-03        4.2323771
+CholesterolBaseline        7         1.728098e-03        8.6373417
+Age 3 categories           8         3.546267e-03        2.7259272
+HistoryCHD                 9         1.296248e-03        3.0193253
+HistoryDiabetes           10         1.262565e-03        3.4117322
+HistoryVascular           11         2.116707e-03        1.7148240
+BMIBaseline               12        -2.317622e-04        7.9063322
+Sex                       13         1.058828e-03        1.4998585
+ACEIARB                   14         4.072164e-04        1.7270743
+DLDmeds                   15         4.636889e-04        1.0401824
+HistoryObesity            16         3.031408e-04        1.4211769
+HistoryHTN                17         5.498095e-04        0.7055189
+HistoryDLD                18        -2.063292e-04        0.8446772
+HistorySmoking            19        -3.645631e-04        1.1759698
+HTNmeds                   20         7.738618e-05        0.7181454
+[Execlution number 44 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.833008e-02       17.7984342
+CreatnineBaseline          2         1.009981e-02       11.8179970
+AgeBaseline                3         5.136570e-03        9.4628022
+sBPBaseline                4         4.698421e-03        9.8519320
+dBPBaseline                5         4.295567e-03        8.9938404
+DMmeds                     6         2.825959e-03        4.3652216
+BMIBaseline                7         2.116827e-03        7.3802919
+Age 3 categories           8         2.970394e-03        2.5170794
+CholesterolBaseline        9         1.731541e-03        8.6877046
+HistoryDiabetes           10         2.345093e-03        3.3089424
+HistoryVascular           11         1.936024e-03        1.6626841
+HistoryCHD                12         5.016985e-04        2.8231201
+ACEIARB                   13         4.433789e-04        1.8984485
+Sex                       14         1.051838e-03        1.2450972
+HistorySmoking            15         9.398933e-05        1.3021298
+HTNmeds                   16         5.932635e-04        0.7750570
+HistoryObesity            17        -2.546297e-04        1.3306506
+HistoryHTN                18         4.458325e-04        0.6616262
+HistoryDLD                19         9.233739e-05        0.9352178
+DLDmeds                   20        -5.697445e-04        1.1070867
+[Execlution number 45 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         0.0172421859       17.7737756
+CreatnineBaseline          2         0.0101859271       11.8167831
+AgeBaseline                3         0.0063037928        9.2405999
+sBPBaseline                4         0.0039818472       10.1822870
+dBPBaseline                5         0.0031729099        9.0552792
+DMmeds                     6         0.0046221289        4.6734170
+CholesterolBaseline        7         0.0015671188        8.6224237
+Age 3 categories           8         0.0016343997        2.5868395
+HistoryCHD                 9         0.0013154452        2.7770331
+HistoryDiabetes           10         0.0010983951        3.2802715
+HistoryVascular           11         0.0021662771        1.5768076
+ACEIARB                   12         0.0009367443        1.9753993
+BMIBaseline               13         0.0002921478        7.6131771
+Sex                       14         0.0009685830        1.2234864
+DLDmeds                   15         0.0007768568        1.0701239
+HistoryObesity            16         0.0002924433        1.2539468
+HistoryHTN                17         0.0008125354        0.7237579
+HistorySmoking            18         0.0001930677        1.2949673
+HTNmeds                   19         0.0004536107        0.6804481
+HistoryDLD                20        -0.0001275902        0.8661273
+[Execlution number 46 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.551870e-02       17.0515040
+CreatnineBaseline          2         1.079537e-02       12.6492914
+AgeBaseline                3         5.582397e-03       10.3037725
+dBPBaseline                4         4.877708e-03        9.0354029
+sBPBaseline                5         3.516426e-03        9.1637414
+DMmeds                     6         3.889276e-03        4.6119184
+HistoryDiabetes            7         2.254351e-03        3.0559289
+Age 3 categories           8         2.269217e-03        2.5213949
+BMIBaseline                9         6.726912e-04        7.3852842
+CholesterolBaseline       10         6.037165e-04        8.4905412
+HistoryVascular           11         1.936923e-03        1.7516249
+HistoryCHD                12         6.763222e-04        2.9293512
+ACEIARB                   13         7.111174e-04        1.9662093
+Sex                       14         1.317626e-03        1.2724125
+HistoryHTN                15         9.157446e-04        0.9350081
+HistoryObesity            16         3.818731e-04        1.4073841
+DLDmeds                   17         1.836424e-04        1.1446724
+HistorySmoking            18         6.636373e-05        1.2383358
+HTNmeds                   19         6.165282e-04        0.8040936
+HistoryDLD                20        -8.620766e-05        0.9166180
+[Execlution number 47 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.706815e-02       17.1422039
+CreatnineBaseline          2         1.078648e-02       12.2424004
+AgeBaseline                3         5.063469e-03        9.7229764
+sBPBaseline                4         3.567860e-03        9.3709421
+dBPBaseline                5         2.935953e-03        9.1587439
+DMmeds                     6         3.554915e-03        4.5888653
+HistoryDiabetes            7         2.951673e-03        3.0961864
+CholesterolBaseline        8         1.204431e-03        8.2477968
+Age 3 categories           9         2.068205e-03        2.6971357
+BMIBaseline               10         1.003498e-03        7.5302359
+HistoryCHD                11         1.825940e-03        2.8750558
+HistoryVascular           12         2.148229e-03        1.8026668
+ACEIARB                   13         7.673278e-04        1.8043369
+Sex                       14         6.935581e-04        1.2947143
+HistoryHTN                15         1.426645e-03        0.7340712
+HistorySmoking            16         2.538449e-04        1.2463832
+HTNmeds                   17         6.321335e-04        0.8343590
+DLDmeds                   18         3.050109e-05        1.2309176
+HistoryObesity            19         1.263153e-04        1.2290252
+HistoryDLD                20        -2.094972e-05        0.8163810
+[Execlution number 48 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         0.0181961820       17.6096437
+CreatnineBaseline          2         0.0083125838       11.9133789
+AgeBaseline                3         0.0055796855        9.8987087
+sBPBaseline                4         0.0035604081        9.6303102
+dBPBaseline                5         0.0030337443        8.7004263
+DMmeds                     6         0.0041239451        4.4982144
+CholesterolBaseline        7         0.0021106700        8.9110280
+Age 3 categories           8         0.0025794928        2.4591754
+HistoryCHD                 9         0.0015260973        2.9459904
+HistoryDiabetes           10         0.0012411492        3.1905705
+HistoryVascular           11         0.0016829452        1.7382139
+BMIBaseline               12         0.0004762309        7.7039947
+Sex                       13         0.0011605249        1.3140924
+ACEIARB                   14         0.0005271559        1.7497029
+DLDmeds                   15         0.0011798073        1.1666949
+HTNmeds                   16         0.0007749169        0.8329941
+HistoryHTN                17         0.0006410583        0.7853070
+HistoryObesity            18         0.0004286656        1.2263009
+HistorySmoking            19        -0.0002563137        1.2879294
+HistoryDLD                20        -0.0002005662        0.7671069
+[Execlution number 49 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.601701e-02       16.8428256
+CreatnineBaseline          2         1.077949e-02       12.2590783
+AgeBaseline                3         6.096927e-03       10.1149484
+dBPBaseline                4         3.288419e-03        9.0800902
+sBPBaseline                5         2.941383e-03        9.3973095
+DMmeds                     6         4.323118e-03        4.3729514
+CholesterolBaseline        7         1.001180e-03        8.6881826
+Age 3 categories           8         2.739334e-03        2.9514281
+BMIBaseline                9         8.623743e-04        7.7249038
+HistoryCHD                10         1.156057e-03        3.2029146
+HistoryVascular           11         2.144429e-03        1.7716057
+HistoryDiabetes           12         5.751509e-04        3.2646171
+ACEIARB                   13         6.232062e-04        1.8006210
+HistoryObesity            14         7.177094e-04        1.3355133
+Sex                       15         3.223605e-04        1.2842708
+HistoryHTN                16         6.164744e-04        0.7843092
+DLDmeds                   17         1.013374e-05        1.1362858
+HistorySmoking            18        -1.556313e-05        1.2137212
+HTNmeds                   19         4.547064e-04        0.7514837
+HistoryDLD                20        -8.887449e-07        0.8898188
+[Execlution number 50 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         0.0189602281       17.5866484
+CreatnineBaseline          2         0.0105793200       12.4078717
+AgeBaseline                3         0.0063665293        9.4830094
+sBPBaseline                4         0.0037055546        9.4853072
+dBPBaseline                5         0.0037438011        9.4315203
+DMmeds                     6         0.0052140365        4.4050323
+CholesterolBaseline        7         0.0007616176        8.7952057
+Age 3 categories           8         0.0033276136        2.5471394
+HistoryCHD                 9         0.0007907070        2.8245158
+HistoryVascular           10         0.0022883943        1.8621820
+HistoryDiabetes           11         0.0006690360        2.8802712
+BMIBaseline               12        -0.0001773102        7.5161543
+ACEIARB                   13         0.0003571535        1.6071393
+HistoryHTN                14         0.0007828827        0.7959408
+DLDmeds                   15         0.0006285209        1.1790244
+HTNmeds                   16         0.0007588033        0.8061394
+Sex                       17         0.0006194198        1.1916033
+HistoryObesity            18         0.0001811533        1.2527375
+HistorySmoking            19        -0.0001737821        1.3447329
+HistoryDLD                20         0.0001388324        0.8254440
+[Execlution number 51 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         0.0170021233        17.022230
+CreatnineBaseline          2         0.0096708169        12.344320
+AgeBaseline                3         0.0050135891         9.730942
+sBPBaseline                4         0.0043295563        10.282830
+dBPBaseline                5         0.0040141121         9.182727
+DMmeds                     6         0.0044750042         4.692623
+Age 3 categories           7         0.0022114183         2.680533
+HistoryDiabetes            8         0.0014864045         2.876524
+HistoryVascular            9         0.0025259683         1.907671
+HistoryCHD                10         0.0019773576         2.626776
+BMIBaseline               11         0.0006375493         7.489198
+ACEIARB                   12         0.0011434288         1.810285
+CholesterolBaseline       13        -0.0001871712         8.402662
+Sex                       14         0.0007852527         1.321669
+DLDmeds                   15         0.0007026563         1.026025
+HistorySmoking            16         0.0002676482         1.353212
+HistoryHTN                17         0.0010456331         0.707032
+HTNmeds                   18         0.0003486109         0.878584
+HistoryObesity            19        -0.0001535312         1.277355
+HistoryDLD                20        -0.0001364230         0.824729
+[Execlution number 52 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.693027e-02       17.6682720
+CreatnineBaseline          2         1.186148e-02       12.0630941
+AgeBaseline                3         6.990630e-03        9.9519827
+sBPBaseline                4         3.147516e-03       10.1261049
+dBPBaseline                5         4.863363e-03        8.8076270
+DMmeds                     6         5.161318e-03        4.4693166
+Age 3 categories           7         1.675925e-03        2.5297218
+HistoryDiabetes            8         1.592164e-03        2.8383948
+CholesterolBaseline        9         5.766098e-04        8.5675601
+HistoryVascular           10         2.210232e-03        1.5129471
+ACEIARB                   11         1.107018e-03        1.9416818
+BMIBaseline               12         4.592099e-04        7.6663944
+HistoryCHD                13         5.530393e-04        3.0669398
+Sex                       14         7.404143e-04        1.3420132
+HistoryHTN                15         1.194734e-03        0.7649318
+HTNmeds                   16         1.020893e-03        0.9272097
+HistoryObesity            17         2.690169e-04        1.2496178
+DLDmeds                   18         2.208911e-04        1.0774203
+HistoryDLD                19         2.762582e-04        0.8500090
+HistorySmoking            20         2.432048e-05        1.2095350
+[Execlution number 53 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.901224e-02       17.4867255
+CreatnineBaseline          2         1.339547e-02       12.1770961
+AgeBaseline                3         6.890913e-03        9.6926218
+sBPBaseline                4         3.577318e-03        9.4540887
+dBPBaseline                5         2.185450e-03        8.8831175
+DMmeds                     6         4.552234e-03        4.3695073
+Age 3 categories           7         2.297130e-03        2.6970257
+BMIBaseline                8         1.036214e-03        7.8401432
+HistoryCHD                 9         1.575562e-03        3.1021277
+HistoryDiabetes           10         1.141246e-03        3.3804400
+HistoryVascular           11         2.050045e-03        1.8746467
+CholesterolBaseline       12         3.067224e-04        8.6565927
+ACEIARB                   13         7.449343e-04        1.9841026
+Sex                       14         6.033727e-04        1.3441257
+HTNmeds                   15         7.321995e-04        0.8339931
+DLDmeds                   16         2.614114e-04        1.0747804
+HistoryObesity            17        -8.105165e-05        1.3124028
+HistorySmoking            18        -2.753763e-05        1.1565312
+HistoryHTN                19         3.307389e-04        0.7585071
+HistoryDLD                20        -1.014587e-04        0.9377228
+[Execlution number 54 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.643076e-02       17.5430947
+CreatnineBaseline          2         9.877236e-03       11.6279730
+AgeBaseline                3         5.812951e-03       10.0896950
+dBPBaseline                4         4.794869e-03        9.1104389
+sBPBaseline                5         3.063092e-03        9.6485761
+DMmeds                     6         3.642936e-03        4.0365459
+CholesterolBaseline        7         9.206222e-04        8.7248633
+Age 3 categories           8         3.029599e-03        2.7027401
+BMIBaseline                9         8.653624e-04        7.9488300
+HistoryCHD                10         1.387567e-03        2.8098053
+HistoryVascular           11         1.931437e-03        1.4607409
+HistoryDiabetes           12         7.142207e-04        3.3628531
+ACEIARB                   13         2.806688e-04        1.8583954
+HistoryObesity            14         4.422530e-04        1.3606863
+Sex                       15         7.623165e-04        1.2025829
+HTNmeds                   16         8.014372e-04        0.8140971
+DLDmeds                   17         6.278406e-06        1.0940270
+HistoryDLD                18         1.482024e-04        0.8687241
+HistorySmoking            19        -9.397436e-05        1.3170284
+HistoryHTN                20        -7.114154e-05        0.7933552
+[Execlution number 55 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.799595e-02       18.0300398
+CreatnineBaseline          2         9.303807e-03       11.7044299
+AgeBaseline                3         6.128570e-03        9.3503290
+sBPBaseline                4         4.355039e-03        9.5176524
+dBPBaseline                5         4.390101e-03        9.1504544
+DMmeds                     6         3.985374e-03        4.3202406
+Age 3 categories           7         2.369411e-03        2.7649201
+HistoryCHD                 8         1.747336e-03        2.9554014
+BMIBaseline                9         1.078918e-03        7.5433464
+HistoryDiabetes           10         1.350356e-03        3.0404658
+HistoryVascular           11         2.320217e-03        1.8266130
+CholesterolBaseline       12        -1.964618e-04        8.7353978
+Sex                       13         1.161021e-03        1.2525136
+HistoryHTN                14         1.427714e-03        0.7604135
+ACEIARB                   15        -3.959258e-04        1.8481113
+DLDmeds                   16         5.663158e-04        1.1207190
+HistoryObesity            17         3.020544e-04        1.2468206
+HistorySmoking            18         1.776142e-05        1.2503116
+HTNmeds                   19         6.718442e-04        0.7593653
+HistoryDLD                20        -3.004968e-05        0.7896381
+[Execlution number 56 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.624136e-02       16.8734780
+CreatnineBaseline          2         9.676516e-03       11.8541885
+AgeBaseline                3         7.358409e-03       10.1479460
+dBPBaseline                4         3.709799e-03        8.8959932
+sBPBaseline                5         2.783054e-03        9.4881774
+DMmeds                     6         3.201728e-03        4.1090085
+BMIBaseline                7         1.700069e-03        7.4111650
+Age 3 categories           8         2.594341e-03        2.7532753
+HistoryCHD                 9         1.918776e-03        2.9238125
+CholesterolBaseline       10         6.751902e-04        8.7553643
+HistoryDiabetes           11         1.311556e-03        3.5959859
+HistoryVascular           12         2.001052e-03        1.7638081
+ACEIARB                   13         6.029487e-04        1.9020361
+Sex                       14         9.500596e-04        1.2243680
+HistoryObesity            15         9.689084e-05        1.2629775
+DLDmeds                   16         3.148945e-04        1.1274474
+HistoryHTN                17         6.870827e-04        0.7069922
+HistorySmoking            18        -2.086223e-04        1.2447738
+HTNmeds                   19         2.963892e-04        0.8300595
+HistoryDLD                20        -9.466697e-05        0.8167283
+[Execlution number 57 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.744203e-02       17.3003537
+CreatnineBaseline          2         1.228244e-02       12.3604022
+AgeBaseline                3         5.286380e-03        9.5323600
+dBPBaseline                4         3.682748e-03        9.0630883
+DMmeds                     5         5.396501e-03        4.1521750
+sBPBaseline                6         1.832804e-03        9.4270151
+CholesterolBaseline        7         1.005914e-03        8.3864835
+Age 3 categories           8         3.196800e-03        2.6464144
+HistoryDiabetes            9         1.109310e-03        3.2368060
+HistoryVascular           10         1.855391e-03        1.6748352
+HistoryCHD                11         5.990522e-04        3.0516905
+BMIBaseline               12         2.311711e-04        7.6731683
+ACEIARB                   13         4.122019e-04        1.9771162
+Sex                       14         6.918074e-04        1.3545740
+HistoryObesity            15         3.318489e-04        1.3954978
+HTNmeds                   16         6.956180e-04        0.6836370
+HistoryHTN                17         4.830563e-04        0.7622394
+DLDmeds                   18        -3.245985e-05        1.1513508
+HistorySmoking            19        -5.867834e-05        1.2809214
+HistoryDLD                20        -2.799053e-04        0.8302095
+[Execlution number 58 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.663662e-02       17.6334891
+CreatnineBaseline          2         1.054838e-02       11.4045578
+AgeBaseline                3         6.606696e-03        9.9700630
+sBPBaseline                4         4.562379e-03        9.7143965
+dBPBaseline                5         4.205361e-03        8.8342291
+DMmeds                     6         5.133269e-03        4.7452174
+Age 3 categories           7         3.402189e-03        2.7192146
+HistoryDiabetes            8         1.215690e-03        3.0133722
+CholesterolBaseline        9         4.617637e-04        8.8751647
+HistoryVascular           10         2.237235e-03        1.7672025
+HistoryCHD                11         6.809462e-04        2.5634612
+Sex                       12         7.446821e-04        1.3614757
+ACEIARB                   13         5.055985e-04        2.0021688
+BMIBaseline               14        -3.139149e-05        7.7816671
+HistoryObesity            15         5.728902e-04        1.3443300
+HTNmeds                   16         4.655937e-04        0.7628416
+DLDmeds                   17         1.498293e-04        1.0589311
+HistorySmoking            18        -2.708857e-05        1.2005001
+HistoryHTN                19         4.507694e-04        0.6736950
+HistoryDLD                20        -2.613596e-04        0.8147768
+[Execlution number 59 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.781506e-02       17.5570351
+CreatnineBaseline          2         1.070887e-02       12.2120555
+AgeBaseline                3         5.745464e-03        9.9653336
+dBPBaseline                4         3.732081e-03        9.1134101
+sBPBaseline                5         2.433434e-03        9.5978858
+DMmeds                     6         5.288584e-03        4.5347026
+HistoryDiabetes            7         1.593860e-03        3.0536759
+Age 3 categories           8         2.130419e-03        2.5995824
+HistoryCHD                 9         1.489937e-03        2.8806062
+HistoryVascular           10         2.239026e-03        1.6574666
+BMIBaseline               11        -1.896989e-04        7.4867046
+CholesterolBaseline       12        -3.601148e-04        8.6196452
+HistoryObesity            13         3.153439e-04        1.3367034
+DLDmeds                   14         5.205373e-04        1.1209244
+HistorySmoking            15         1.615353e-04        1.2153213
+HistoryHTN                16         6.641727e-04        0.6737468
+ACEIARB                   17        -5.590325e-04        1.8856685
+HTNmeds                   18         2.598343e-04        0.9281999
+HistoryDLD                19        -2.395429e-05        0.9489208
+Sex                       20        -2.989011e-04        1.2103911
+[Execlution number 60 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.498121e-02       17.6521953
+CreatnineBaseline          2         1.085257e-02       12.4007049
+dBPBaseline                3         5.234873e-03        9.0494678
+sBPBaseline                4         4.404385e-03        9.7680879
+AgeBaseline                5         4.127649e-03        9.5689648
+DMmeds                     6         4.905655e-03        4.4348561
+Age 3 categories           7         3.136106e-03        2.6121706
+CholesterolBaseline        8         6.349971e-04        8.6757293
+HistoryDiabetes            9         1.047636e-03        3.3680188
+HistoryVascular           10         2.342795e-03        1.7633079
+ACEIARB                   11         7.280387e-04        1.9632742
+BMIBaseline               12        -3.639646e-05        7.5389088
+HistoryCHD                13        -2.681439e-04        2.6371031
+HistoryHTN                14         1.217472e-03        0.7488407
+HistoryObesity            15         9.912525e-05        1.2287844
+Sex                       16         4.593813e-04        1.1763549
+HistorySmoking            17        -2.271866e-04        1.1500721
+HTNmeds                   18         5.916647e-04        0.7381492
+DLDmeds                   19        -6.249498e-04        1.1275203
+HistoryDLD                20        -4.000901e-04        0.7984859
+[Execlution number 61 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.722450e-02       16.8371213
+CreatnineBaseline          2         1.082030e-02       11.6063084
+AgeBaseline                3         5.605174e-03        9.7221698
+sBPBaseline                4         3.339229e-03        9.5934719
+dBPBaseline                5         3.547145e-03        8.8955374
+DMmeds                     6         3.992247e-03        4.3490073
+HistoryDiabetes            7         2.021499e-03        3.0841132
+Age 3 categories           8         2.052832e-03        2.5114354
+CholesterolBaseline        9         7.214734e-04        8.9396242
+HistoryVascular           10         2.079573e-03        1.7001777
+HistoryCHD                11         1.096879e-03        2.8940982
+ACEIARB                   12         1.455764e-03        1.8421325
+BMIBaseline               13        -2.148600e-04        8.0220912
+Sex                       14         1.576012e-03        1.1796826
+HistoryObesity            15         4.354787e-04        1.2343743
+HTNmeds                   16         7.963261e-04        0.7844356
+DLDmeds                   17         5.083666e-04        1.1170676
+HistorySmoking            18        -2.307883e-04        1.2429073
+HistoryHTN                19         5.747033e-04        0.6706606
+HistoryDLD                20         1.053284e-05        0.9044821
+[Execlution number 62 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.582139e-02       17.6519373
+CreatnineBaseline          2         9.188911e-03       12.0874164
+AgeBaseline                3         7.569448e-03       10.0427896
+dBPBaseline                4         4.388810e-03        8.9667884
+sBPBaseline                5         4.081742e-03        9.4860918
+DMmeds                     6         4.105730e-03        4.7603054
+Age 3 categories           7         2.722845e-03        2.4732553
+HistoryCHD                 8         2.002602e-03        2.6494332
+CholesterolBaseline        9         2.747705e-04        8.6696886
+HistoryDiabetes           10         7.426388e-04        3.0425434
+BMIBaseline               11         2.707427e-04        7.1934452
+HistoryVascular           12         1.816032e-03        1.7056513
+ACEIARB                   13         3.355858e-04        1.7830348
+HTNmeds                   14         7.457898e-04        0.8064297
+HistoryHTN                15         9.153559e-04        0.7126231
+HistoryObesity            16         1.825940e-04        1.4496805
+Sex                       17         1.691467e-04        1.3047217
+DLDmeds                   18         2.081933e-06        1.0967762
+HistorySmoking            19        -5.015186e-04        1.3705652
+HistoryDLD                20        -2.388196e-04        0.7669843
+[Execlution number 63 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         0.0168533399       16.4147677
+CreatnineBaseline          2         0.0111573789       13.0732500
+AgeBaseline                3         0.0077306375        9.7680400
+sBPBaseline                4         0.0043150345        9.9313725
+dBPBaseline                5         0.0041162272        9.1893307
+DMmeds                     6         0.0051131057        4.2575696
+CholesterolBaseline        7         0.0015959204        8.3475479
+Age 3 categories           8         0.0031531899        2.6246394
+HistoryDiabetes            9         0.0020012351        3.1506553
+HistoryVascular           10         0.0024132462        1.8453426
+HistoryCHD                11         0.0012854601        2.7683228
+BMIBaseline               12         0.0002459395        7.6220226
+Sex                       13         0.0008389121        1.2418250
+ACEIARB                   14         0.0002770014        1.6668724
+HistorySmoking            15         0.0003997563        1.1291551
+HTNmeds                   16         0.0006793052        0.8587416
+HistoryHTN                17         0.0007504557        0.7030983
+DLDmeds                   18         0.0002460434        1.1830046
+HistoryObesity            19         0.0002213215        1.3925650
+HistoryDLD                20         0.0002662331        0.7602816
+[Execlution number 64 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.678366e-02       17.3409211
+CreatnineBaseline          2         1.002669e-02       12.2443970
+AgeBaseline                3         5.254231e-03        9.7708215
+sBPBaseline                4         4.118104e-03        9.4345443
+DMmeds                     5         5.367958e-03        4.3439156
+dBPBaseline                6         2.758694e-03        8.9680174
+Age 3 categories           7         3.132310e-03        2.5784989
+CholesterolBaseline        8         8.519707e-04        8.6623236
+HistoryDiabetes            9         1.965454e-03        3.2744551
+HistoryCHD                10         8.725995e-04        2.9710415
+BMIBaseline               11         7.184113e-04        7.5693248
+HistoryVascular           12         2.465624e-03        1.5226335
+Sex                       13         7.899583e-04        1.3020635
+HistoryObesity            14         3.486823e-04        1.3469809
+HTNmeds                   15         7.588864e-04        0.9391164
+ACEIARB                   16        -4.126104e-04        1.9727472
+DLDmeds                   17         5.909905e-04        1.0830931
+HistorySmoking            18        -9.513498e-05        1.2685631
+HistoryHTN                19         5.339535e-04        0.7202787
+HistoryDLD                20        -4.226458e-05        0.8571472
+[Execlution number 65 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.657511e-02       17.3105231
+CreatnineBaseline          2         1.103966e-02       12.1018952
+AgeBaseline                3         5.339722e-03        9.8208438
+dBPBaseline                4         4.443234e-03        9.1184162
+sBPBaseline                5         3.261283e-03        9.1267144
+DMmeds                     6         3.211424e-03        4.2486153
+CholesterolBaseline        7         9.261034e-04        8.6590778
+Age 3 categories           8         2.265068e-03        2.6239170
+HistoryDiabetes            9         1.577742e-03        3.2438408
+HistoryCHD                10         1.309948e-03        2.8741747
+HistoryVascular           11         1.694751e-03        1.5723203
+BMIBaseline               12        -2.324109e-04        7.7095189
+Sex                       13         7.934307e-04        1.3141585
+ACEIARB                   14        -8.921876e-05        1.7395424
+DLDmeds                   15         5.730191e-04        1.1156342
+HistoryObesity            16         1.204943e-04        1.4241762
+HistorySmoking            17         2.237993e-04        1.3080735
+HistoryHTN                18         3.566036e-04        0.7987584
+HTNmeds                   19         1.310004e-04        0.7697689
+HistoryDLD                20        -3.170278e-04        0.7156465
+[Execlution number 66 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.768587e-02       17.2790161
+CreatnineBaseline          2         1.115633e-02       11.9945723
+AgeBaseline                3         6.711572e-03        9.8085116
+dBPBaseline                4         4.106371e-03        8.4725805
+sBPBaseline                5         3.336190e-03        9.5306093
+DMmeds                     6         4.106824e-03        4.4100303
+CholesterolBaseline        7         7.650935e-04        8.4325473
+Age 3 categories           8         2.836152e-03        2.7898100
+HistoryDiabetes            9         9.650485e-04        3.2133560
+HistoryVascular           10         2.745639e-03        1.6555639
+BMIBaseline               11         5.634553e-04        7.7799714
+HistoryCHD                12         7.298760e-04        3.0648147
+Sex                       13         7.460565e-04        1.3805864
+HistoryHTN                14         1.009526e-03        0.7428495
+HistoryObesity            15         6.749069e-04        1.3074048
+ACEIARB                   16         1.504022e-04        1.8692456
+DLDmeds                   17         2.508391e-04        1.0713255
+HTNmeds                   18         5.469225e-04        0.7538030
+HistorySmoking            19         5.403975e-05        1.2266214
+HistoryDLD                20         4.662992e-05        0.7118877
+[Execlution number 67 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.746356e-02       17.3443668
+CreatnineBaseline          2         1.158673e-02       12.1238982
+AgeBaseline                3         6.836444e-03        9.7605554
+sBPBaseline                4         2.981387e-03        9.8249310
+dBPBaseline                5         3.545571e-03        9.0462434
+DMmeds                     6         4.856881e-03        4.3819861
+HistoryDiabetes            7         2.479102e-03        3.2279089
+Age 3 categories           8         2.949021e-03        2.3127559
+HistoryCHD                 9         1.669856e-03        2.8430148
+HistoryVascular           10         1.977608e-03        1.7366007
+CholesterolBaseline       11         6.579986e-05        8.5574967
+BMIBaseline               12        -5.419420e-04        7.8035526
+HistoryObesity            13         4.579244e-04        1.4339043
+Sex                       14         8.205727e-04        1.1914838
+ACEIARB                   15        -2.227694e-04        1.7908512
+HistoryHTN                16         8.716640e-04        0.7367489
+HistorySmoking            17         3.593594e-04        1.3256677
+HTNmeds                   18         7.679506e-04        0.9321883
+HistoryDLD                19         5.448159e-04        0.8137007
+DLDmeds                   20         2.284373e-05        1.1952870
+[Execlution number 68 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.744664e-02       17.5511105
+CreatnineBaseline          2         9.702650e-03       11.6866435
+AgeBaseline                3         7.274417e-03        9.6228807
+dBPBaseline                4         4.453693e-03        8.7056834
+sBPBaseline                5         3.292035e-03        9.5754836
+DMmeds                     6         3.375921e-03        4.3630390
+BMIBaseline                7         1.216722e-03        7.5749055
+Age 3 categories           8         2.751174e-03        2.6041650
+HistoryCHD                 9         1.522750e-03        2.7064563
+HistoryDiabetes           10         1.179805e-03        3.2605472
+HistoryVascular           11         1.933793e-03        1.6994374
+CholesterolBaseline       12         3.324928e-04        8.3035805
+ACEIARB                   13         5.576413e-04        1.8289496
+HistoryObesity            14         5.261493e-04        1.3271809
+DLDmeds                   15         2.762524e-04        1.2761748
+HTNmeds                   16         5.569014e-04        0.8787541
+HistoryHTN                17         3.825010e-04        0.8181014
+Sex                       18         1.116200e-04        1.2510381
+HistoryDLD                19         1.546184e-04        0.9888071
+HistorySmoking            20        -1.589141e-05        1.2157788
+[Execlution number 69 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.648115e-02       17.2354246
+CreatnineBaseline          2         1.106364e-02       12.2920114
+AgeBaseline                3         5.204358e-03        9.5009900
+sBPBaseline                4         3.353832e-03        9.7619658
+dBPBaseline                5         4.028156e-03        8.7784306
+DMmeds                     6         5.139349e-03        4.1280420
+CholesterolBaseline        7         1.564290e-03        8.1771440
+Age 3 categories           8         3.108979e-03        2.8328983
+HistoryDiabetes            9         2.096113e-03        3.2626866
+HistoryVascular           10         1.652823e-03        1.8006182
+BMIBaseline               11         5.028266e-04        7.8098554
+ACEIARB                   12         9.168882e-04        1.9434480
+HistoryCHD                13         9.137052e-04        2.8056196
+Sex                       14         1.470467e-03        1.3136740
+DLDmeds                   15         1.044163e-03        1.1132959
+HistoryObesity            16        -6.401334e-05        1.2949054
+HTNmeds                   17         7.945839e-04        0.7925032
+HistoryDLD                18         4.884720e-04        0.8403642
+HistorySmoking            19        -3.877909e-04        1.2136654
+HistoryHTN                20         3.537856e-04        0.6794402
+[Execlution number 70 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         0.0162516699       17.4668888
+CreatnineBaseline          2         0.0102154875       11.7652949
+AgeBaseline                3         0.0065139977        9.8965305
+sBPBaseline                4         0.0035222442        9.7624554
+dBPBaseline                5         0.0032475954        8.4866616
+DMmeds                     6         0.0036449268        4.4117937
+Age 3 categories           7         0.0025201450        2.7974759
+HistoryCHD                 8         0.0018718123        2.8473116
+HistoryDiabetes            9         0.0012915036        3.1704973
+HistoryVascular           10         0.0019960124        1.6129831
+BMIBaseline               11         0.0001742768        7.4641981
+CholesterolBaseline       12         0.0001334772        8.3764237
+Sex                       13         0.0008056482        1.3190961
+DLDmeds                   14         0.0007664050        1.2537212
+ACEIARB                   15        -0.0002985075        1.9712281
+HistoryHTN                16         0.0012355771        0.7837084
+HTNmeds                   17         0.0004776889        0.8805490
+HistoryObesity            18         0.0001462535        1.1702656
+HistorySmoking            19        -0.0001747621        1.2813187
+HistoryDLD                20        -0.0004386121        0.8160173
+[Execlution number 71 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         0.0159743682       16.7686865
+CreatnineBaseline          2         0.0113061252       12.6256782
+AgeBaseline                3         0.0064231267        9.7827975
+dBPBaseline                4         0.0041688815        9.3037017
+sBPBaseline                5         0.0028024139        9.3192194
+DMmeds                     6         0.0045636018        4.5143415
+CholesterolBaseline        7         0.0014529674        8.5377625
+Age 3 categories           8         0.0019751641        2.7450925
+HistoryDiabetes            9         0.0008954187        2.9086309
+BMIBaseline               10         0.0007369547        7.4060103
+HistoryVascular           11         0.0025054383        1.7423048
+HistoryCHD                12         0.0005989127        2.8257884
+Sex                       13         0.0008598406        1.3215559
+HTNmeds                   14         0.0008011702        0.8842783
+ACEIARB                   15        -0.0010882796        1.9363593
+HistoryObesity            16         0.0001929472        1.3116576
+HistorySmoking            17         0.0003071088        1.2802744
+DLDmeds                   18        -0.0002029875        1.0663164
+HistoryHTN                19         0.0004409162        0.7375452
+HistoryDLD                20        -0.0002134230        0.7909404
+[Execlution number 72 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.751918e-02       17.6411878
+CreatnineBaseline          2         1.051000e-02       11.9138934
+AgeBaseline                3         6.892984e-03        9.8905855
+dBPBaseline                4         4.526710e-03        9.0681254
+sBPBaseline                5         3.490639e-03        9.2733303
+DMmeds                     6         4.331973e-03        4.4747294
+CholesterolBaseline        7         1.173135e-03        8.7572595
+Age 3 categories           8         3.001307e-03        2.7167443
+HistoryDiabetes            9         2.127697e-03        2.9961313
+HistoryVascular           10         2.136980e-03        1.6590862
+BMIBaseline               11         6.597866e-04        7.5367474
+HistoryObesity            12         9.847376e-04        1.3042197
+HistoryCHD                13         5.974906e-04        2.6647807
+Sex                       14         6.725655e-04        1.4252414
+ACEIARB                   15         6.972548e-05        1.9791750
+HTNmeds                   16         6.904617e-04        0.8947646
+HistoryHTN                17         8.502779e-04        0.7732921
+DLDmeds                   18         3.288389e-04        1.1868254
+HistoryDLD                19         3.887356e-04        0.8458845
+HistorySmoking            20        -2.181944e-04        1.1956673
+[Execlution number 73 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.747214e-02       17.4864687
+CreatnineBaseline          2         1.146595e-02       12.2258248
+AgeBaseline                3         5.751625e-03        9.4786428
+sBPBaseline                4         3.740593e-03        9.6066480
+dBPBaseline                5         4.000703e-03        8.8388329
+DMmeds                     6         4.059358e-03        4.4494044
+Age 3 categories           7         2.658549e-03        2.6656218
+HistoryDiabetes            8         1.637448e-03        3.0057583
+BMIBaseline                9         7.564750e-04        7.3658448
+HistoryCHD                10         1.112524e-03        2.7940131
+HistoryVascular           11         1.881426e-03        1.7639193
+ACEIARB                   12         6.197965e-04        1.7462158
+CholesterolBaseline       13        -4.137133e-04        8.7417536
+Sex                       14         1.058269e-03        1.2643240
+HistoryObesity            15         2.471710e-04        1.2175681
+HistorySmoking            16        -1.475491e-04        1.3688646
+HistoryHTN                17         3.182664e-04        0.6866373
+HTNmeds                   18         2.855736e-04        0.7567760
+HistoryDLD                19         8.228452e-05        0.8700689
+DLDmeds                   20        -2.906180e-04        1.0813722
+[Execlution number 74 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.665275e-02       17.0557977
+CreatnineBaseline          2         1.194811e-02       12.0309726
+AgeBaseline                3         7.020780e-03        9.7346410
+sBPBaseline                4         4.016282e-03        9.8727719
+dBPBaseline                5         3.138466e-03        8.9401431
+DMmeds                     6         4.871186e-03        4.4303163
+Age 3 categories           7         2.557577e-03        2.4648545
+HistoryCHD                 8         1.561623e-03        2.9782443
+HistoryDiabetes            9         1.384276e-03        3.1826718
+HistoryVascular           10         2.593945e-03        1.6992613
+CholesterolBaseline       11         6.599114e-04        8.9517234
+BMIBaseline               12         6.651413e-04        7.7052978
+ACEIARB                   13         9.304130e-04        1.9971965
+DLDmeds                   14         1.147015e-03        1.1709258
+HistoryHTN                15         1.017660e-03        0.9059185
+HTNmeds                   16         1.185569e-03        0.8400308
+Sex                       17         5.134299e-04        1.4206920
+HistoryObesity            18        -8.642692e-05        1.3683478
+HistorySmoking            19        -1.440601e-04        1.2849742
+HistoryDLD                20         2.623836e-04        0.8503804
+[Execlution number 75 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.714308e-02       17.5207976
+CreatnineBaseline          2         1.213488e-02       12.2482979
+AgeBaseline                3         5.318283e-03       10.0112775
+dBPBaseline                4         4.644438e-03        8.9674364
+sBPBaseline                5         3.716865e-03        9.6543791
+DMmeds                     6         5.188441e-03        4.5553754
+Age 3 categories           7         1.675537e-03        2.7324534
+HistoryCHD                 8         1.448327e-03        2.9141149
+HistoryDiabetes            9         1.253562e-03        3.1187051
+HistoryVascular           10         2.294934e-03        1.7008347
+BMIBaseline               11         4.578927e-04        7.5222430
+ACEIARB                   12         5.689133e-04        2.0408837
+CholesterolBaseline       13        -5.090737e-04        8.4072621
+DLDmeds                   14         7.053811e-04        1.0270774
+Sex                       15         6.487915e-04        1.2177387
+HTNmeds                   16         6.754485e-04        0.8351587
+HistorySmoking            17        -2.058220e-05        1.2923870
+HistoryObesity            18         2.533596e-04        1.1977511
+HistoryHTN                19         3.115418e-04        0.7703693
+HistoryDLD                20        -3.680802e-05        0.8528880
+[Execlution number 76 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.443517e-02       17.5790646
+CreatnineBaseline          2         8.879234e-03       12.1318083
+AgeBaseline                3         5.632118e-03        9.6325359
+dBPBaseline                4         4.910631e-03        9.1236477
+sBPBaseline                5         3.414549e-03        9.3482512
+DMmeds                     6         3.607334e-03        4.6315499
+HistoryDiabetes            7         2.124722e-03        3.0033910
+Age 3 categories           8         2.761537e-03        2.6058097
+CholesterolBaseline        9         2.003246e-04        8.4298124
+HistoryVascular           10         1.794592e-03        1.6921440
+HistoryCHD                11         5.132878e-04        2.9169388
+BMIBaseline               12        -2.477522e-05        7.7237641
+Sex                       13         9.791275e-04        1.5006391
+ACEIARB                   14         1.009911e-04        1.7549322
+HistoryHTN                15         1.509926e-03        0.8282634
+DLDmeds                   16         3.646951e-04        1.2050990
+HTNmeds                   17         6.116722e-04        0.7819195
+HistoryDLD                18         3.578661e-04        0.8744773
+HistorySmoking            19        -4.462572e-04        1.2648781
+HistoryObesity            20        -2.523601e-04        1.1467704
+[Execlution number 77 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.773094e-02       17.1807309
+CreatnineBaseline          2         1.185629e-02       12.1530147
+AgeBaseline                3         5.988185e-03       10.1038916
+sBPBaseline                4         4.692876e-03        9.3803253
+dBPBaseline                5         3.945803e-03        8.8102326
+DMmeds                     6         3.186008e-03        4.3570128
+CholesterolBaseline        7         1.869835e-03        8.8330229
+HistoryDiabetes            8         2.191188e-03        3.0463467
+Age 3 categories           9         2.532590e-03        2.6036961
+HistoryCHD                10         1.845607e-03        3.0061663
+HistoryVascular           11         2.182551e-03        1.7873558
+BMIBaseline               12         1.064843e-04        7.4010242
+HistoryObesity            13         5.680550e-04        1.3570328
+Sex                       14         4.721082e-04        1.2046443
+ACEIARB                   15        -2.410678e-05        1.8224830
+HistoryHTN                16         5.053787e-04        0.8615145
+HistoryDLD                17         1.786614e-04        0.8532366
+HTNmeds                   18         3.766204e-04        0.7958554
+DLDmeds                   19        -2.208104e-04        1.1541373
+HistorySmoking            20        -2.390647e-04        1.1805455
+[Execlution number 78 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.735716e-02       17.8681320
+CreatnineBaseline          2         1.200906e-02       11.5497161
+AgeBaseline                3         6.924489e-03       10.0622411
+dBPBaseline                4         5.052466e-03        8.6539316
+sBPBaseline                5         4.346368e-03        9.6086132
+DMmeds                     6         4.539037e-03        4.2790681
+CholesterolBaseline        7         1.626025e-03        8.5580914
+Age 3 categories           8         2.072917e-03        2.7953861
+HistoryCHD                 9         1.711412e-03        3.0212886
+HistoryDiabetes           10         1.491071e-03        3.2039453
+HistoryVascular           11         2.082751e-03        1.7529736
+BMIBaseline               12         4.848389e-04        7.6383809
+ACEIARB                   13         3.695734e-04        1.8139682
+HistoryObesity            14         3.844474e-04        1.2377361
+HistoryHTN                15         8.861407e-04        0.8279681
+Sex                       16         2.542724e-04        1.3587509
+HTNmeds                   17         6.918984e-04        0.7897525
+DLDmeds                   18         4.402025e-05        1.2311538
+HistorySmoking            19         1.300330e-04        1.2053075
+HistoryDLD                20        -1.717180e-04        0.8840244
+[Execlution number 79 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.629260e-02       17.4613745
+CreatnineBaseline          2         9.913666e-03       12.0470015
+AgeBaseline                3         6.964131e-03        9.7031869
+dBPBaseline                4         4.468974e-03        9.1721543
+sBPBaseline                5         4.128667e-03        9.4671577
+DMmeds                     6         4.855193e-03        4.3759395
+CholesterolBaseline        7         1.241792e-03        8.6526829
+Age 3 categories           8         2.667399e-03        2.6009721
+HistoryDiabetes            9         1.493925e-03        3.2008995
+HistoryCHD                10         1.025463e-03        2.7323643
+HistoryVascular           11         1.951704e-03        1.7005524
+BMIBaseline               12         4.630596e-04        7.3978880
+ACEIARB                   13         5.981264e-04        1.8585573
+Sex                       14         9.516590e-04        1.3501873
+DLDmeds                   15         5.799052e-04        1.0842270
+HTNmeds                   16         7.410969e-04        0.8094021
+HistoryObesity            17         9.210652e-05        1.3781966
+HistorySmoking            18         2.035521e-04        1.1515836
+HistoryHTN                19         4.838232e-04        0.7209226
+HistoryDLD                20        -6.897141e-05        0.9016367
+[Execlution number 80 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.681059e-02       17.4366513
+CreatnineBaseline          2         9.752508e-03       12.0370002
+AgeBaseline                3         3.731144e-03        9.7368273
+dBPBaseline                4         4.603790e-03        8.8898138
+sBPBaseline                5         3.246634e-03        9.6438494
+DMmeds                     6         4.039219e-03        4.4164811
+Age 3 categories           7         2.372342e-03        2.7865498
+HistoryCHD                 8         9.262302e-04        3.0055218
+HistoryVascular            9         1.880158e-03        1.4711433
+HistoryDiabetes           10         5.094730e-04        2.9900773
+Sex                       11         6.468150e-04        1.3283450
+BMIBaseline               12        -5.412958e-04        7.3240153
+CholesterolBaseline       13        -8.192887e-04        8.8606877
+HistorySmoking            14         2.987017e-04        1.2644028
+ACEIARB                   15        -7.026551e-04        1.8837339
+HistoryHTN                16         6.201837e-04        0.6940247
+HTNmeds                   17         3.782503e-04        0.8738983
+DLDmeds                   18         9.923048e-06        1.1532181
+HistoryObesity            19        -8.433804e-05        1.1942239
+HistoryDLD                20        -4.016388e-04        0.8130456
+[Execlution number 81 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         0.0171824527       17.2829513
+CreatnineBaseline          2         0.0134043944       12.3036602
+AgeBaseline                3         0.0070087948        9.5598098
+dBPBaseline                4         0.0053171644        8.9565594
+sBPBaseline                5         0.0044521374        9.6722569
+DMmeds                     6         0.0051439115        4.4374265
+CholesterolBaseline        7         0.0013720310        8.8346670
+Age 3 categories           8         0.0031312475        2.7045204
+HistoryCHD                 9         0.0018908073        2.7471555
+HistoryDiabetes           10         0.0013331099        2.9849101
+BMIBaseline               11         0.0008561222        7.5523986
+HistoryVascular           12         0.0017358795        1.3913589
+ACEIARB                   13         0.0008452376        1.8857092
+Sex                       14         0.0012717364        1.3148713
+HistoryObesity            15         0.0006665855        1.3678980
+HistoryHTN                16         0.0009074115        0.7752740
+DLDmeds                   17         0.0004352870        1.1995068
+HTNmeds                   18         0.0005586082        0.8291817
+HistorySmoking            19        -0.0001368506        1.1591488
+HistoryDLD                20         0.0002831306        0.8111639
+[Execlution number 82 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.635344e-02       18.0426336
+CreatnineBaseline          2         9.216063e-03       11.8573775
+AgeBaseline                3         5.357070e-03        9.6287739
+sBPBaseline                4         3.760282e-03        9.8255841
+dBPBaseline                5         3.960067e-03        8.8613746
+DMmeds                     6         4.604038e-03        4.3223175
+HistoryDiabetes            7         2.200755e-03        3.1001240
+Age 3 categories           8         2.033021e-03        2.7257055
+BMIBaseline                9         8.198971e-04        7.3386315
+CholesterolBaseline       10         8.001637e-04        8.5467208
+HistoryVascular           11         2.766793e-03        1.6827152
+HistoryCHD                12         1.359080e-03        2.7194087
+Sex                       13         1.307184e-03        1.2385747
+ACEIARB                   14        -3.038331e-05        1.8792224
+HistorySmoking            15         2.839624e-04        1.3454172
+HistoryObesity            16        -1.137916e-05        1.3409547
+HTNmeds                   17         6.858512e-04        0.8576496
+HistoryHTN                18         4.819793e-04        0.6772951
+DLDmeds                   19        -1.321952e-04        1.0957769
+HistoryDLD                20        -8.272203e-05        0.8497137
+[Execlution number 83 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.756884e-02       16.8906478
+CreatnineBaseline          2         1.105377e-02       12.2420133
+AgeBaseline                3         4.894369e-03        9.9484321
+dBPBaseline                4         4.510791e-03        8.9417754
+sBPBaseline                5         4.162468e-03        9.5737303
+DMmeds                     6         4.799803e-03        4.1277418
+CholesterolBaseline        7         1.426742e-03        8.7834762
+Age 3 categories           8         2.910306e-03        2.5697528
+HistoryCHD                 9         1.761335e-03        2.6310189
+BMIBaseline               10         1.063578e-03        7.3935904
+HistoryDiabetes           11         1.109743e-03        3.3722243
+HistoryVascular           12         1.446944e-03        1.6308178
+Sex                       13         1.209122e-03        1.3725170
+ACEIARB                   14         6.498003e-05        1.9356140
+HistorySmoking            15         1.787864e-04        1.3616017
+DLDmeds                   16         2.815858e-04        1.1486734
+HTNmeds                   17         8.683492e-04        0.8209757
+HistoryHTN                18         9.853087e-04        0.6812758
+HistoryObesity            19         1.220578e-04        1.3096745
+HistoryDLD                20        -2.591176e-04        0.6876615
+[Execlution number 84 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         0.0164180024       17.1775717
+CreatnineBaseline          2         0.0113362056       11.9688175
+AgeBaseline                3         0.0064725576        9.9753218
+dBPBaseline                4         0.0039332536        8.8012958
+sBPBaseline                5         0.0030238738        9.7066931
+DMmeds                     6         0.0053697039        4.5830428
+BMIBaseline                7         0.0010037614        7.6909235
+CholesterolBaseline        8         0.0008893258        8.6473056
+Age 3 categories           9         0.0021691400        2.4464882
+HistoryCHD                10         0.0015537623        2.7804051
+HistoryVascular           11         0.0024334631        1.7728740
+HistoryDiabetes           12         0.0006928011        3.1336469
+Sex                       13         0.0012190679        1.3848338
+ACEIARB                   14         0.0004234582        1.8297192
+DLDmeds                   15         0.0006725532        1.1488661
+HistoryObesity            16         0.0003875986        1.3384542
+HistoryHTN                17         0.0005468557        0.6922814
+HTNmeds                   18         0.0005190247        0.8292024
+HistorySmoking            19        -0.0001257887        1.3365439
+HistoryDLD                20         0.0001067929        0.8698495
+[Execlution number 85 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         0.0177820626       17.1539725
+CreatnineBaseline          2         0.0102379877       12.4138477
+AgeBaseline                3         0.0057019221        9.8871213
+dBPBaseline                4         0.0044434962        8.7592049
+sBPBaseline                5         0.0025226256        9.9460256
+DMmeds                     6         0.0057879868        4.4892527
+Age 3 categories           7         0.0039666574        2.5914378
+CholesterolBaseline        8         0.0007286636        8.6281212
+HistoryCHD                 9         0.0016153905        2.8544545
+HistoryDiabetes           10         0.0011860059        3.0354698
+HistoryVascular           11         0.0019723029        1.7385149
+BMIBaseline               12         0.0003110504        7.5757794
+ACEIARB                   13         0.0005682785        1.7356493
+HTNmeds                   14         0.0008985312        0.9201260
+Sex                       15         0.0003765231        1.3745309
+HistoryObesity            16         0.0001822588        1.3917529
+DLDmeds                   17         0.0002619854        1.0669517
+HistorySmoking            18         0.0001955629        1.1651913
+HistoryHTN                19         0.0003761803        0.8168364
+HistoryDLD                20        -0.0001988706        0.9005578
+[Execlution number 86 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.727514e-02       17.4385496
+CreatnineBaseline          2         1.088241e-02       12.0188203
+AgeBaseline                3         5.786638e-03        9.7026755
+sBPBaseline                4         5.251521e-03        9.5541822
+dBPBaseline                5         4.057497e-03        8.6428500
+DMmeds                     6         5.445913e-03        4.5800702
+CholesterolBaseline        7         2.028045e-03        8.6164323
+Age 3 categories           8         2.719422e-03        2.5944295
+HistoryDiabetes            9         2.540410e-03        2.9157609
+HistoryCHD                10         1.376047e-03        2.5553294
+HistoryVascular           11         2.049031e-03        1.6947307
+BMIBaseline               12         1.728407e-04        7.3007509
+ACEIARB                   13         7.167125e-04        1.9160913
+Sex                       14         7.398525e-04        1.2989871
+HistoryHTN                15         7.240888e-04        0.7664260
+HistoryObesity            16        -1.470174e-05        1.3163355
+HTNmeds                   17         4.536876e-04        0.8829763
+DLDmeds                   18         1.166429e-04        1.0395373
+HistorySmoking            19        -4.987089e-04        1.2754282
+HistoryDLD                20         1.296190e-05        0.8449086
+[Execlution number 87 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.621558e-02       16.6521144
+CreatnineBaseline          2         1.084953e-02       12.4454598
+AgeBaseline                3         5.709099e-03        9.8713027
+sBPBaseline                4         2.995469e-03        9.8564477
+dBPBaseline                5         2.795746e-03        8.9839531
+DMmeds                     6         5.187528e-03        4.4361637
+Age 3 categories           7         3.092471e-03        2.6810690
+BMIBaseline                8         9.938658e-04        7.4478175
+CholesterolBaseline        9         6.473083e-04        8.1421771
+HistoryCHD                10         8.912469e-04        2.4808355
+HistoryDiabetes           11         7.794711e-04        3.4194629
+HistoryVascular           12         2.525465e-03        1.8074167
+HistoryObesity            13         8.203191e-04        1.3206619
+ACEIARB                   14        -1.688874e-05        1.8708493
+DLDmeds                   15         6.812162e-04        1.0202172
+Sex                       16         1.903949e-04        1.4881524
+HistoryDLD                17         5.057213e-04        0.7335241
+HistorySmoking            18        -2.202678e-05        1.1843649
+HistoryHTN                19         2.126336e-04        0.7333105
+HTNmeds                   20        -1.653904e-04        0.8212344
+[Execlution number 88 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.723518e-02       17.8446117
+CreatnineBaseline          2         1.138276e-02       12.3219079
+AgeBaseline                3         6.276263e-03        9.6130768
+dBPBaseline                4         4.525126e-03        8.9752301
+sBPBaseline                5         3.294198e-03        9.5915582
+DMmeds                     6         4.161119e-03        4.2362523
+Age 3 categories           7         3.001430e-03        2.5267042
+CholesterolBaseline        8         1.064360e-03        8.5976184
+HistoryDiabetes            9         1.428321e-03        3.1965810
+HistoryCHD                10         1.291319e-03        2.6592009
+HistoryVascular           11         1.968116e-03        1.6498991
+BMIBaseline               12         3.978294e-04        7.5295829
+Sex                       13         2.035193e-03        1.2912147
+ACEIARB                   14         7.640951e-04        1.9062076
+HistoryObesity            15         4.265769e-04        1.3349146
+HTNmeds                   16         9.777229e-04        0.7578840
+HistorySmoking            17        -4.835560e-04        1.3357673
+HistoryHTN                18         5.470625e-04        0.7091631
+DLDmeds                   19        -1.116149e-04        1.0880779
+HistoryDLD                20        -2.713688e-05        0.8504652
+[Execlution number 89 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.884613e-02       17.7333593
+CreatnineBaseline          2         1.098721e-02       12.1300788
+AgeBaseline                3         6.363475e-03        9.6139068
+dBPBaseline                4         6.392447e-03        9.3159288
+sBPBaseline                5         3.188496e-03        9.4059881
+DMmeds                     6         4.013587e-03        4.5091099
+CholesterolBaseline        7         1.259051e-03        8.3355684
+Age 3 categories           8         2.503017e-03        2.6447952
+HistoryCHD                 9         1.660857e-03        2.8404693
+HistoryVascular           10         2.162259e-03        1.7186028
+ACEIARB                   11         8.048895e-04        1.9029757
+HistoryDiabetes           12         2.657268e-04        3.0501118
+BMIBaseline               13        -3.262890e-04        7.6546318
+HistoryHTN                14         1.491531e-03        0.8072663
+Sex                       15         7.258249e-04        1.2789732
+HTNmeds                   16         7.337170e-04        0.9171306
+DLDmeds                   17         4.485294e-04        1.0742431
+HistoryObesity            18         7.407147e-05        1.2794243
+HistorySmoking            19        -7.986079e-05        1.1609236
+HistoryDLD                20         1.420145e-04        0.8063432
+[Execlution number 90 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         0.0161166411       17.4527665
+CreatnineBaseline          2         0.0122575254       11.7022357
+AgeBaseline                3         0.0062914827        9.5655492
+sBPBaseline                4         0.0032561414        9.7099347
+dBPBaseline                5         0.0034743462        8.9568727
+DMmeds                     6         0.0053039954        4.7818168
+CholesterolBaseline        7         0.0014073165        8.5354180
+HistoryCHD                 8         0.0016083230        2.8118600
+HistoryVascular            9         0.0022351316        1.6756045
+Age 3 categories          10         0.0011848714        2.8994714
+HistoryDiabetes           11         0.0007780653        2.9572484
+BMIBaseline               12        -0.0003397201        7.3038196
+Sex                       13         0.0012076673        1.3407617
+ACEIARB                   14        -0.0002109311        1.8497350
+DLDmeds                   15         0.0005746196        1.0707790
+HistoryHTN                16         0.0007416702        0.6902981
+HistorySmoking            17        -0.0003454808        1.2429135
+HTNmeds                   18         0.0004640113        0.7939463
+HistoryDLD                19        -0.0003425564        0.8549378
+HistoryObesity            20        -0.0005164064        1.1436663
+[Execlution number 91 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         0.0167258812       17.1276581
+CreatnineBaseline          2         0.0121341758       12.3959200
+AgeBaseline                3         0.0060703003        9.6491843
+dBPBaseline                4         0.0054511719        8.9102866
+sBPBaseline                5         0.0034472635        9.4744714
+DMmeds                     6         0.0036650644        4.5147194
+Age 3 categories           7         0.0017892965        2.7223077
+BMIBaseline                8         0.0010474288        7.8752158
+CholesterolBaseline        9         0.0009914750        8.6210801
+HistoryDiabetes           10         0.0011296591        3.0304482
+HistoryVascular           11         0.0022712400        1.6315319
+HistoryCHD                12         0.0008785805        2.6472662
+Sex                       13         0.0013306115        1.4092343
+ACEIARB                   14         0.0002567354        1.8926340
+HTNmeds                   15         0.0004731910        0.8604861
+DLDmeds                   16         0.0002219387        1.1122565
+HistoryHTN                17         0.0006693167        0.7508436
+HistoryObesity            18         0.0002065880        1.3471532
+HistorySmoking            19        -0.0003885605        1.4290249
+HistoryDLD                20        -0.0001091372        0.8043921
+[Execlution number 92 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.806613e-02       17.3290409
+CreatnineBaseline          2         1.082450e-02       12.2873244
+AgeBaseline                3         6.494991e-03        9.2505888
+sBPBaseline                4         3.553206e-03        9.9176083
+dBPBaseline                5         3.566429e-03        8.9478812
+DMmeds                     6         4.987336e-03        4.4811582
+BMIBaseline                7         8.908564e-04        7.4687898
+Age 3 categories           8         2.101478e-03        2.7461390
+HistoryCHD                 9         1.696952e-03        3.1345701
+HistoryVascular           10         2.298504e-03        1.5605128
+CholesterolBaseline       11         5.887314e-04        8.5294833
+HistoryDiabetes           12         7.784855e-04        3.1412565
+Sex                       13         7.865016e-04        1.3291035
+HistoryObesity            14         7.181444e-04        1.1480025
+ACEIARB                   15        -1.184043e-04        1.9105723
+DLDmeds                   16         2.781836e-04        1.1654672
+HistoryHTN                17         7.035410e-04        0.7709958
+HistorySmoking            18        -2.793474e-04        1.3406641
+HistoryDLD                19         8.707451e-05        0.8069977
+HTNmeds                   20         5.625386e-05        0.8195801
+[Execlution number 93 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.645654e-02       17.6848287
+CreatnineBaseline          2         1.131802e-02       12.0186417
+AgeBaseline                3         6.289918e-03        9.6633963
+dBPBaseline                4         3.960770e-03        8.7471489
+sBPBaseline                5         2.626528e-03        9.2759385
+DMmeds                     6         4.827375e-03        4.5434430
+CholesterolBaseline        7         8.707567e-04        8.9065725
+Age 3 categories           8         2.997427e-03        2.5502144
+HistoryDiabetes            9         1.177092e-03        2.9243909
+HistoryCHD                10         8.201241e-04        2.9786921
+HistoryVascular           11         2.398320e-03        1.6598110
+Sex                       12         1.243778e-03        1.3297616
+BMIBaseline               13        -2.433865e-04        7.6975996
+HistoryObesity            14         3.550700e-04        1.2977141
+ACEIARB                   15        -1.391951e-04        1.7600137
+DLDmeds                   16         2.363068e-04        1.1276269
+HTNmeds                   17         3.346912e-04        0.8457767
+HistoryDLD                18         9.181654e-05        0.7784207
+HistorySmoking            19        -3.039724e-04        1.2193511
+HistoryHTN                20        -6.759374e-05        0.7247344
+[Execlution number 94 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.790600e-02       17.3493321
+CreatnineBaseline          2         1.158284e-02       11.8826519
+AgeBaseline                3         6.605137e-03        9.7889329
+sBPBaseline                4         3.221479e-03        9.5329633
+dBPBaseline                5         4.458903e-03        9.0116372
+DMmeds                     6         6.018265e-03        4.5014997
+CholesterolBaseline        7         1.616994e-03        9.1105208
+Age 3 categories           8         2.688793e-03        2.6409972
+BMIBaseline                9         1.237440e-03        7.6568338
+HistoryCHD                10         1.760901e-03        2.6455134
+HistoryDiabetes           11         1.094832e-03        2.9432263
+HistoryVascular           12         1.809846e-03        1.6841457
+ACEIARB                   13         4.369680e-04        1.8868283
+DLDmeds                   14         8.103798e-04        1.0806419
+Sex                       15         5.262546e-04        1.2891115
+HistoryObesity            16         2.712952e-05        1.3604317
+HistoryHTN                17         7.540660e-04        0.7300419
+HistorySmoking            18         1.821424e-05        1.1065281
+HTNmeds                   19         4.183594e-04        0.8688100
+HistoryDLD                20         1.382940e-05        0.8516746
+[Execlution number 95 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.711823e-02       17.1149943
+CreatnineBaseline          2         9.549074e-03       12.1579769
+AgeBaseline                3         6.516961e-03        9.7607080
+sBPBaseline                4         2.584047e-03        9.5999245
+dBPBaseline                5         3.562311e-03        8.7337817
+DMmeds                     6         5.184529e-03        4.3558277
+CholesterolBaseline        7         1.829813e-03        8.8018618
+Age 3 categories           8         1.785698e-03        2.5383955
+HistoryDiabetes            9         1.714146e-03        2.9576145
+HistoryVascular           10         2.216402e-03        1.6717251
+ACEIARB                   11         1.097604e-03        1.8243277
+HistoryCHD                12         8.777617e-04        3.0601317
+BMIBaseline               13         5.346817e-04        7.7812298
+HistoryObesity            14         8.796562e-04        1.2241023
+Sex                       15         8.746977e-04        1.4007857
+HistoryHTN                16         8.980014e-04        0.7978280
+DLDmeds                   17         5.654949e-04        1.0675426
+HistorySmoking            18         1.872377e-04        1.3437018
+HTNmeds                   19         6.182350e-04        0.9314194
+HistoryDLD                20        -6.154487e-05        0.8394776
+[Execlution number 96 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.766852e-02       17.5613779
+CreatnineBaseline          2         1.113515e-02       11.9591582
+AgeBaseline                3         6.579545e-03        9.8391935
+dBPBaseline                4         4.351472e-03        8.9857254
+sBPBaseline                5         3.156223e-03        9.3537674
+DMmeds                     6         4.871664e-03        4.4531752
+CholesterolBaseline        7         1.229389e-03        8.7709036
+Age 3 categories           8         3.143188e-03        2.5643986
+HistoryCHD                 9         1.162262e-03        2.8448911
+HistoryDiabetes           10         4.708137e-04        3.0434582
+HistoryVascular           11         2.081097e-03        1.7147355
+ACEIARB                   12         4.268278e-04        1.9422797
+BMIBaseline               13         4.752223e-05        7.7117766
+HistoryObesity            14         4.483850e-04        1.3060083
+HistoryHTN                15         1.253005e-03        0.7646867
+Sex                       16         3.842381e-04        1.3051411
+HistorySmoking            17         3.531588e-04        1.2913077
+HistoryDLD                18         1.286964e-04        0.8360233
+HTNmeds                   19         2.072565e-04        0.7776714
+DLDmeds                   20        -6.695850e-04        1.1753306
+[Execlution number 97 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.630190e-02       17.4579175
+CreatnineBaseline          2         7.772029e-03       11.7337687
+AgeBaseline                3         5.535703e-03       10.0495632
+sBPBaseline                4         3.918620e-03        9.6040931
+dBPBaseline                5         2.473173e-03        8.6600480
+DMmeds                     6         3.583194e-03        4.5051775
+Age 3 categories           7         2.423580e-03        2.6637906
+BMIBaseline                8         5.076846e-04        7.9280333
+HistoryVascular            9         1.897064e-03        1.7147878
+CholesterolBaseline       10         1.098603e-04        8.9172365
+ACEIARB                   11         4.690614e-04        1.7871223
+HistoryCHD                12         2.851008e-04        2.6824508
+HistoryDiabetes           13         1.270686e-04        2.9082132
+HistoryObesity            14         6.291110e-04        1.2420839
+Sex                       15         3.101792e-04        1.2617634
+HistoryHTN                16         8.457007e-04        0.7967140
+DLDmeds                   17         2.382102e-04        0.9769098
+HistorySmoking            18        -2.611966e-04        1.2214392
+HTNmeds                   19         4.802930e-05        0.8994398
+HistoryDLD                20         1.336584e-05        0.8140538
+[Execlution number 98 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.667795e-02       17.6256002
+CreatnineBaseline          2         1.059779e-02       11.8753681
+AgeBaseline                3         4.309952e-03        9.7046053
+dBPBaseline                4         4.161249e-03        9.1640024
+sBPBaseline                5         3.544797e-03        9.9710767
+DMmeds                     6         3.697928e-03        4.5095755
+BMIBaseline                7         8.923531e-04        7.4566510
+HistoryDiabetes            8         1.170225e-03        3.3410070
+HistoryVascular            9         2.507028e-03        1.7395168
+Age 3 categories          10         1.121779e-03        2.4871867
+HistoryCHD                11         6.106672e-04        2.7750886
+CholesterolBaseline       12        -2.547190e-04        9.0881166
+Sex                       13         7.614201e-04        1.4380332
+DLDmeds                   14         7.688984e-04        1.1085374
+ACEIARB                   15         3.318883e-04        1.6697545
+HistoryHTN                16         5.142921e-04        0.6976874
+HistoryObesity            17        -2.862409e-05        1.1585333
+HistorySmoking            18        -1.646470e-04        1.1784531
+HTNmeds                   19         4.731633e-04        0.8809418
+HistoryDLD                20         3.256968e-04        0.9262076
+[Execlution number 99 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.610889e-02       17.2101317
+CreatnineBaseline          2         1.239728e-02       12.2003169
+AgeBaseline                3         5.574286e-03        9.6291692
+dBPBaseline                4         4.551532e-03        8.9247068
+sBPBaseline                5         3.823417e-03        9.4540813
+DMmeds                     6         4.629842e-03        4.5748889
+Age 3 categories           7         3.299072e-03        2.8452082
+HistoryDiabetes            8         2.154841e-03        3.0089984
+BMIBaseline                9         9.971353e-04        7.3608640
+HistoryCHD                10         9.110027e-04        3.0908203
+HistoryVascular           11         2.135137e-03        1.6634910
+CholesterolBaseline       12         5.633715e-04        8.6019764
+HistoryObesity            13         1.018438e-03        1.3015788
+Sex                       14         1.138832e-03        1.2884311
+ACEIARB                   15         3.224088e-04        1.8628331
+DLDmeds                   16         6.680745e-04        1.1086186
+HistoryHTN                17         8.634661e-04        0.8239473
+HistorySmoking            18        -4.359985e-04        1.2585247
+HTNmeds                   19         5.667700e-04        0.7102410
+HistoryDLD                20        -9.873848e-05        0.8732846
+[Execlution number 100 out of 100]
+[Randomizing the rows]
+application of randomForest()
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.738957e-02       17.8558062
+CreatnineBaseline          2         1.123216e-02       12.2184912
+AgeBaseline                3         5.602200e-03        9.7769420
+sBPBaseline                4         4.534296e-03       10.0447440
+dBPBaseline                5         4.471785e-03        9.0812390
+DMmeds                     6         3.946117e-03        4.1751077
+CholesterolBaseline        7         1.353538e-03        8.7158381
+Age 3 categories           8         2.590741e-03        2.8518036
+BMIBaseline                9         1.181114e-03        7.6126456
+HistoryVascular           10         2.247163e-03        1.6347963
+HistoryCHD                11         9.636169e-04        2.7029106
+HistoryDiabetes           12         6.446007e-04        3.3470661
+Sex                       13         1.090972e-03        1.2643836
+ACEIARB                   14         2.356897e-05        1.7314309
+HTNmeds                   15         7.829151e-04        0.8449396
+DLDmeds                   16         4.324092e-04        1.1648984
+HistoryObesity            17        -3.144250e-04        1.3858447
+HistorySmoking            18        -2.139939e-04        1.2319650
+HistoryHTN                19         2.343464e-04        0.7507754
+HistoryDLD                20         3.115810e-07        0.8396054
+
+
+
+
+== final ranking after 100 executions == 
+
+[function agregateTwoSortedRankings()]
+
+cbind()
+                    finalPos MeanDecreaseAccuracy MeanDecreaseGini
+eGFRBaseline               1         1.677232e-02       17.3509028
+CreatnineBaseline          2         1.066685e-02       12.1405488
+AgeBaseline                3         6.025261e-03        9.7352986
+dBPBaseline                4         4.103244e-03        8.9765966
+sBPBaseline                5         3.489357e-03        9.6065653
+DMmeds                     6         4.386975e-03        4.4291560
+CholesterolBaseline        7         9.249061e-04        8.6392557
+Age 3 categories           8         2.572311e-03        2.6478886
+HistoryDiabetes            9         1.337592e-03        3.1566370
+HistoryCHD                10         1.279623e-03        2.8405896
+HistoryVascular           11         2.125893e-03        1.6915749
+BMIBaseline               12         4.249858e-04        7.5629808
+Sex                       13         8.165328e-04        1.3169953
+ACEIARB                   14         3.715551e-04        1.8645051
+HistoryHTN                15         6.811513e-04        0.7551331
+HistoryObesity            16         2.351630e-04        1.3064849
+HTNmeds                   17         5.591397e-04        0.8309041
+DLDmeds                   18         3.378000e-04        1.1305157
+HistorySmoking            19        -4.488273e-05        1.2493515
+HistoryDLD                20        -3.448202e-06        0.8430865
+
+Total execution time: 1.694757 seconds
+0 days, 00 hours, 00 minutes, 1.69 seconds
+
