@@ -29,9 +29,9 @@ libraries(list.of.packages)
 source("./confusion_matrix_rates.r")
 source("./utils.r")
 
-NUM_METRICS <- 7
+NUM_METRICS <- 9
 confMatDataFrame <- matrix(ncol=NUM_METRICS, nrow=1)
-colnames(confMatDataFrame) <- c("MCC", "F1 score", "accuracy", "TP_rate", "TN_rate", "PR_AUC", "ROC_AUC")
+colnames(confMatDataFrame) <- c("MCC", "F1 score", "accuracy", "TP_rate", "TN_rate", "PPV", "NPV",  "PR_AUC", "ROC_AUC")
 
 threshold <- 0.5
 
@@ -42,6 +42,7 @@ cat("fileName = ", fileName, "\n", sep="")
 patients_data$"TriglyceridesBaseline" <- NULL
 patients_data$"HgbA1C" <- NULL
 patients_data$"TimeToEventMonths" <- NULL
+patients_data$"Age.3.categories" <- NULL
 
 
 # let's put the target label last on the right 

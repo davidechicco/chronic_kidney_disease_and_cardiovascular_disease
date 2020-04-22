@@ -8,7 +8,7 @@ Number of executions = 100
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -26,7 +26,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -59,7 +59,7 @@ TOTAL:
 [Execlution number 2 out of 100]
 [Randomizing the rows]
 target_label = EventCKD35There were 50 or more warnings (use warnings() to see the first 50)
-tures (columns) = 21 
+tures (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -77,7 +77,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -112,7 +112,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -130,7 +130,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -165,7 +165,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -183,7 +183,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -218,7 +218,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -236,7 +236,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -271,7 +271,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -289,7 +289,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -324,7 +324,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -342,7 +342,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -377,7 +377,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -395,7 +395,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -430,7 +430,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -448,7 +448,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -483,7 +483,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -501,7 +501,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -536,7 +536,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -554,7 +554,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -589,7 +589,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -607,7 +607,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -642,7 +642,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -660,7 +660,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -695,7 +695,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -713,7 +713,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -748,7 +748,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -766,7 +766,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -801,7 +801,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -819,7 +819,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -854,7 +854,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -872,7 +872,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -907,7 +907,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -925,7 +925,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -960,7 +960,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -978,7 +978,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -1013,7 +1013,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -1031,7 +1031,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -1066,7 +1066,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -1084,7 +1084,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -1119,7 +1119,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -1137,7 +1137,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -1172,7 +1172,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -1190,7 +1190,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -1225,7 +1225,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -1243,7 +1243,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -1278,7 +1278,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -1296,7 +1296,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -1331,7 +1331,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -1349,7 +1349,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -1384,7 +1384,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -1402,7 +1402,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -1437,7 +1437,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -1455,7 +1455,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -1490,7 +1490,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -1508,7 +1508,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -1543,7 +1543,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -1561,7 +1561,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -1596,7 +1596,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -1614,7 +1614,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -1649,7 +1649,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -1667,7 +1667,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -1702,7 +1702,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -1720,7 +1720,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -1755,7 +1755,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -1773,7 +1773,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -1808,7 +1808,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -1826,7 +1826,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -1861,7 +1861,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -1879,7 +1879,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -1914,7 +1914,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -1932,7 +1932,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -1967,7 +1967,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -1985,7 +1985,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -2020,7 +2020,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -2038,7 +2038,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -2073,7 +2073,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -2091,7 +2091,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -2126,7 +2126,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -2144,7 +2144,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -2179,7 +2179,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -2197,7 +2197,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -2232,7 +2232,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -2250,7 +2250,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -2285,7 +2285,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -2303,7 +2303,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -2338,7 +2338,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -2356,7 +2356,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -2391,7 +2391,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -2409,7 +2409,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -2444,7 +2444,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -2462,7 +2462,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -2497,7 +2497,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -2515,7 +2515,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -2550,7 +2550,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -2568,7 +2568,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -2603,7 +2603,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -2621,7 +2621,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -2656,7 +2656,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -2674,7 +2674,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -2709,7 +2709,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -2727,7 +2727,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -2762,7 +2762,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -2780,7 +2780,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -2815,7 +2815,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -2833,7 +2833,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -2868,7 +2868,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -2886,7 +2886,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -2921,7 +2921,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -2939,7 +2939,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -2974,7 +2974,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -2992,7 +2992,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -3027,7 +3027,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -3045,7 +3045,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -3080,7 +3080,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -3098,7 +3098,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -3133,7 +3133,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -3151,7 +3151,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -3186,7 +3186,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -3204,7 +3204,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -3239,7 +3239,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -3257,7 +3257,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -3292,7 +3292,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -3310,7 +3310,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -3345,7 +3345,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -3363,7 +3363,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -3398,7 +3398,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -3416,7 +3416,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -3451,7 +3451,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -3469,7 +3469,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -3504,7 +3504,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -3522,7 +3522,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -3557,7 +3557,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -3575,7 +3575,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -3610,7 +3610,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -3628,7 +3628,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -3663,7 +3663,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -3681,7 +3681,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -3716,7 +3716,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -3734,7 +3734,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -3769,7 +3769,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -3787,7 +3787,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -3822,7 +3822,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -3840,7 +3840,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -3875,7 +3875,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -3893,7 +3893,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -3928,7 +3928,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -3946,7 +3946,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -3981,7 +3981,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -3999,7 +3999,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -4034,7 +4034,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -4052,7 +4052,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -4087,7 +4087,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -4105,7 +4105,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -4140,7 +4140,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -4158,7 +4158,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -4193,7 +4193,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -4211,7 +4211,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -4246,7 +4246,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -4264,7 +4264,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -4299,7 +4299,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -4317,7 +4317,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -4352,7 +4352,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -4370,7 +4370,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -4405,7 +4405,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -4423,7 +4423,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -4458,7 +4458,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -4476,7 +4476,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -4511,7 +4511,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -4529,7 +4529,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -4564,7 +4564,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -4582,7 +4582,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -4617,7 +4617,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -4635,7 +4635,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -4670,7 +4670,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -4688,7 +4688,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -4723,7 +4723,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -4741,7 +4741,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -4776,7 +4776,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -4794,7 +4794,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -4829,7 +4829,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -4847,7 +4847,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -4882,7 +4882,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -4900,7 +4900,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -4935,7 +4935,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -4953,7 +4953,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -4988,7 +4988,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -5006,7 +5006,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -5041,7 +5041,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -5059,7 +5059,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -5094,7 +5094,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -5112,7 +5112,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -5147,7 +5147,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -5165,7 +5165,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -5200,7 +5200,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -5218,7 +5218,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -5253,7 +5253,7 @@ TOTAL:
 target_label = EventCKD35
 [Dataset size]
 number of data instances (rows) = 491 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 435]
@@ -5271,7 +5271,7 @@ check
 [Creating the training set and test set for the labels "1"-"0"]
 [Dataset size]
 number of data instances (rows) = 393 
-number of features (columns) = 21 
+number of features (columns) = 20
 
 [Imbalance of this dataset]
 [class: 0  #elements = 212]
@@ -5339,8 +5339,8 @@ coef.var       0.062
 
 
 === === === ===
-       MCC F1_score accuracy TP_rate TN_rate   PPV   NPV PR_AUC ROC_AUC
-mean +0.382    0.443    0.801   0.701   0.813 0.331 0.955  0.420   0.849
+            MCC    F1_score accuracy TP_rate TN_rate   PPV   NPV   PR_AUC   ROC_AUC
+mean +0.382    0.443     0.801      0.701   0.813   0.331 0.955   0.420      0.849
 
 
 === === === ===

@@ -1,0 +1,2351 @@
+Loading requiscript_dir: .
+Read data from file ../data/journal.pone.0199920.s002_EDITED.csv
+Number of executions = 100
+exe = 1
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.2120321
+ROC AUC 		0.7347222
+
+
+TOTAL:
+
+ FN =  3  /  8 	 (truth == 1) & (prediction < threshold)
+ TP =  5  /  8 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  14  /  90 	 (truth == 0) & (prediction >= threshold)
+ TN =  76  /  90 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.325 	 0.370 	 	0.827 	 	0.625 	 	0.844		0.263	 	0.962	 	0.212	0.735
+
+exe = 2
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.1739598
+ROC AUC 		0.701087
+
+
+TOTAL:
+
+ FN =  3  /  6 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  6 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  9  /  92 	 (truth == 0) & (prediction >= threshold)
+ TN =  83  /  92 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@There were 13 warnings (use warnings() to see them)
+ 	 	0.902		0.250	 	0.965	 	0.174	0.701
+
+exe = 3
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.2004555
+ROC AUC 		0.7569892
+
+
+TOTAL:
+
+ FN =  2  /  5 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  5 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  8  /  93 	 (truth == 0) & (prediction >= threshold)
+ TN =  85  /  93 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.358 	 0.375 	 	0.898 	 	0.600 	 	0.914		0.273	 	0.977	 	0.200	0.757
+
+exe = 4
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.2487273
+ROC AUC 		0.7111111
+
+
+TOTAL:
+
+ FN =  4  /  8 	 (truth == 1) & (prediction < threshold)
+ TP =  4  /  8 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  7  /  90 	 (truth == 0) & (prediction >= threshold)
+ TN =  83  /  90 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.366 	 0.421 	 	0.888 	 	0.500 	 	0.922		0.364	 	0.954	 	0.249	0.711
+
+exe = 5
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.4357129
+ROC AUC 		0.7772727
+
+
+TOTAL:
+
+ FN =  4  /  10 	 (truth == 1) & (prediction < threshold)
+ TP =  6  /  10 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  88 	 (truth == 0) & (prediction >= threshold)
+ TN =  84  /  88 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.555 	 0.600 	 	0.918 	 	0.600 	 	0.955		0.600	 	0.955	 	0.436	0.777
+
+exe = 6
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.3068591
+ROC AUC 		0.8007246
+
+
+TOTAL:
+
+ FN =  2  /  6 	 (truth == 1) & (prediction < threshold)
+ TP =  4  /  6 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  6  /  92 	 (truth == 0) & (prediction >= threshold)
+ TN =  86  /  92 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.476 	 0.500 	 	0.918 	 	0.667 	 	0.935		0.400	 	0.977	 	0.307	0.801
+
+exe = 7
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.1489527
+ROC AUC 		0.6677419
+
+
+TOTAL:
+
+ FN =  3  /  5 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  5 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  6  /  93 	 (truth == 0) & (prediction >= threshold)
+ TN =  87  /  93 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.270 	 0.308 	 	0.908 	 	0.400 	 	0.935		0.250	 	0.967	 	0.149	0.668
+
+exe = 8
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.3636364
+ROC AUC 		0.962766
+
+
+TOTAL:
+
+ FN =  0  /  4 	 (truth == 1) & (prediction < threshold)
+ TP =  4  /  4 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  7  /  94 	 (truth == 0) & (prediction >= threshold)
+ TN =  87  /  94 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.580 	 0.533 	 	0.929 	 	1.000 	 	0.926		0.364	 	1.000	 	0.364	0.963
+
+exe = 9
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.4244409
+ROC AUC 		0.7609238
+
+
+TOTAL:
+
+ FN =  4  /  9 	 (truth == 1) & (prediction < threshold)
+ TP =  5  /  9 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  89 	 (truth == 0) & (prediction >= threshold)
+ TN =  86  /  89 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.550 	 0.588 	 	0.929 	 	0.556 	 	0.966		0.625	 	0.956	 	0.424	0.761
+
+exe = 10
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.2927922
+ROC AUC 		0.8076923
+
+
+TOTAL:
+
+ FN =  2  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  5  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  9  /  91 	 (truth == 0) & (prediction >= threshold)
+ TN =  82  /  91 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.453 	 0.476 	 	0.888 	 	0.714 	 	0.901		0.357	 	0.976	 	0.293	0.808
+
+exe = 11
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.315451
+ROC AUC 		0.7736111
+
+
+TOTAL:
+
+ FN =  3  /  8 	 (truth == 1) & (prediction < threshold)
+ TP =  5  /  8 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  7  /  90 	 (truth == 0) & (prediction >= threshold)
+ TN =  83  /  90 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.457 	 0.500 	 	0.898 	 	0.625 	 	0.922		0.417	 	0.965	 	0.315	0.774
+
+exe = 12
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.5046444
+ROC AUC 		0.761233
+
+
+TOTAL:
+
+ FN =  5  /  11 	 (truth == 1) & (prediction < threshold)
+ TP =  6  /  11 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  87 	 (truth == 0) & (prediction >= threshold)
+ TN =  85  /  87 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.602 	 0.632 	 	0.929 	 	0.545 	 	0.977		0.750	 	0.944	 	0.505	0.761
+
+exe = 13
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.1543414
+ROC AUC 		0.6153846
+
+
+TOTAL:
+
+ FN =  5  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  5  /  91 	 (truth == 0) & (prediction >= threshold)
+ TN =  86  /  91 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.231 	 0.286 	 	0.898 	 	0.286 	 	0.945		0.286	 	0.945	 	0.154	0.615
+
+exe = 14
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.3705987
+ROC AUC 		0.7847222
+
+
+TOTAL:
+
+ FN =  3  /  8 	 (truth == 1) & (prediction < threshold)
+ TP =  5  /  8 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  5  /  90 	 (truth == 0) & (prediction >= threshold)
+ TN =  85  /  90 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.515 	 0.556 	 	0.918 	 	0.625 	 	0.944		0.500	 	0.966	 	0.371	0.785
+
+exe = 15
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.5448529
+ROC AUC 		0.8406479
+
+
+TOTAL:
+
+ FN =  3  /  11 	 (truth == 1) & (prediction < threshold)
+ TP =  8  /  11 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  87 	 (truth == 0) & (prediction >= threshold)
+ TN =  83  /  87 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.656 	 0.696 	 	0.929 	 	0.727 	 	0.954		0.667	 	0.965	 	0.545	0.841
+
+exe = 16
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.4400222
+ROC AUC 		0.8351648
+
+
+TOTAL:
+
+ FN =  2  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  5  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  91 	 (truth == 0) & (prediction >= threshold)
+ TN =  87  /  91 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.598 	 0.625 	 	0.939 	 	0.714 	 	0.956		0.556	 	0.978	 	0.440	0.835
+
+exe = 17
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.1800994
+ROC AUC 		0.8164894
+
+
+TOTAL:
+
+ FN =  1  /  4 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  4 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  11  /  94 	 (truth == 0) & (prediction >= threshold)
+ TN =  83  /  94 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.358 	 0.333 	 	0.878 	 	0.750 	 	0.883		0.214	 	0.988	 	0.180	0.816
+
+exe = 18
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.5602978
+ROC AUC 		0.8817829
+
+
+TOTAL:
+
+ FN =  2  /  12 	 (truth == 1) & (prediction < threshold)
+ TP =  10  /  12 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  6  /  86 	 (truth == 0) & (prediction >= threshold)
+ TN =  80  /  86 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.677 	 0.714 	 	0.918 	 	0.833 	 	0.930		0.625	 	0.976	 	0.560	0.882
+
+exe = 19
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.3326371
+ROC AUC 		0.7032967
+
+
+TOTAL:
+
+ FN =  4  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  91 	 (truth == 0) & (prediction >= threshold)
+ TN =  89  /  91 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.476 	 0.500 	 	0.939 	 	0.429 	 	0.978		0.600	 	0.957	 	0.333	0.703
+
+exe = 20
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.4902679
+ROC AUC 		0.9010989
+
+
+TOTAL:
+
+ FN =  1  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  6  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  5  /  91 	 (truth == 0) & (prediction >= threshold)
+ TN =  86  /  91 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.654 	 0.667 	 	0.939 	 	0.857 	 	0.945		0.545	 	0.989	 	0.490	0.901
+
+exe = 21
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.4780253
+ROC AUC 		0.7829545
+
+
+TOTAL:
+
+ FN =  4  /  10 	 (truth == 1) & (prediction < threshold)
+ TP =  6  /  10 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  88 	 (truth == 0) & (prediction >= threshold)
+ TN =  85  /  88 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.593 	 0.632 	 	0.929 	 	0.600 	 	0.966		0.667	 	0.955	 	0.478	0.783
+
+exe = 22
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.3424322
+ROC AUC 		0.8677419
+
+
+TOTAL:
+
+ FN =  1  /  5 	 (truth == 1) & (prediction < threshold)
+ TP =  4  /  5 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  6  /  93 	 (truth == 0) & (prediction >= threshold)
+ TN =  87  /  93 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.535 	 0.533 	 	0.929 	 	0.800 	 	0.935		0.400	 	0.989	 	0.342	0.868
+
+exe = 23
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.1865455
+ROC AUC 		0.7065217
+
+
+TOTAL:
+
+ FN =  3  /  6 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  6 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  8  /  92 	 (truth == 0) & (prediction >= threshold)
+ TN =  84  /  92 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.314 	 0.353 	 	0.888 	 	0.500 	 	0.913		0.273	 	0.966	 	0.187	0.707
+
+exe = 24
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.3358813
+ROC AUC 		0.7215909
+
+
+TOTAL:
+
+ FN =  5  /  10 	 (truth == 1) & (prediction < threshold)
+ TP =  5  /  10 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  5  /  88 	 (truth == 0) & (prediction >= threshold)
+ TN =  83  /  88 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.443 	 0.500 	 	0.898 	 	0.500 	 	0.943		0.500	 	0.943	 	0.336	0.722
+
+exe = 25
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.3875065
+ROC AUC 		0.7692308
+
+
+TOTAL:
+
+ FN =  3  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  4  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  91 	 (truth == 0) & (prediction >= threshold)
+ TN =  88  /  91 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.538 	 0.571 	 	0.939 	 	0.571 	 	0.967		0.571	 	0.967	 	0.388	0.769
+
+exe = 26
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.3717592
+ROC AUC 		0.7659091
+
+
+TOTAL:
+
+ FN =  4  /  10 	 (truth == 1) & (prediction < threshold)
+ TP =  6  /  10 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  6  /  88 	 (truth == 0) & (prediction >= threshold)
+ TN =  82  /  88 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.491 	 0.545 	 	0.898 	 	0.600 	 	0.932		0.500	 	0.953	 	0.372	0.766
+
+exe = 27
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.5454545
+ROC AUC 		0.9728261
+
+
+TOTAL:
+
+ FN =  0  /  6 	 (truth == 1) & (prediction < threshold)
+ TP =  6  /  6 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  5  /  92 	 (truth == 0) & (prediction >= threshold)
+ TN =  87  /  92 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.718 	 0.706 	 	0.949 	 	1.000 	 	0.946		0.545	 	1.000	 	0.545	0.973
+
+exe = 28
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.3068591
+ROC AUC 		0.8007246
+
+
+TOTAL:
+
+ FN =  2  /  6 	 (truth == 1) & (prediction < threshold)
+ TP =  4  /  6 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  6  /  92 	 (truth == 0) & (prediction >= threshold)
+ TN =  86  /  92 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.476 	 0.500 	 	0.918 	 	0.667 	 	0.935		0.400	 	0.977	 	0.307	0.801
+
+exe = 29
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.2979492
+ROC AUC 		0.8623188
+
+
+TOTAL:
+
+ FN =  1  /  6 	 (truth == 1) & (prediction < threshold)
+ TP =  5  /  6 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  10  /  92 	 (truth == 0) & (prediction >= threshold)
+ TN =  82  /  92 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.483 	 0.476 	 	0.888 	 	0.833 	 	0.891		0.333	 	0.988	 	0.298	0.862
+
+exe = 30
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.2487127
+ROC AUC 		0.8462366
+
+
+TOTAL:
+
+ FN =  1  /  5 	 (truth == 1) & (prediction < threshold)
+ TP =  4  /  5 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  10  /  93 	 (truth == 0) & (prediction >= threshold)
+ TN =  83  /  93 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.435 	 0.421 	 	0.888 	 	0.800 	 	0.892		0.286	 	0.988	 	0.249	0.846
+
+exe = 31
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.1857676
+ROC AUC 		0.6784946
+
+
+TOTAL:
+
+ FN =  3  /  5 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  5 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  93 	 (truth == 0) & (prediction >= threshold)
+ TN =  89  /  93 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.328 	 0.364 	 	0.929 	 	0.400 	 	0.957		0.333	 	0.967	 	0.186	0.678
+
+exe = 32
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.3875065
+ROC AUC 		0.7692308
+
+
+TOTAL:
+
+ FN =  3  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  4  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  91 	 (truth == 0) & (prediction >= threshold)
+ TN =  88  /  91 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.538 	 0.571 	 	0.939 	 	0.571 	 	0.967		0.571	 	0.967	 	0.388	0.769
+
+exe = 33
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.5668064
+ROC AUC 		0.8803553
+
+
+TOTAL:
+
+ FN =  2  /  11 	 (truth == 1) & (prediction < threshold)
+ TP =  9  /  11 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  5  /  87 	 (truth == 0) & (prediction >= threshold)
+ TN =  82  /  87 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.686 	 0.720 	 	0.929 	 	0.818 	 	0.943		0.643	 	0.976	 	0.567	0.880
+
+exe = 34
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.4183086
+ROC AUC 		0.8176594
+
+
+TOTAL:
+
+ FN =  3  /  11 	 (truth == 1) & (prediction < threshold)
+ TP =  8  /  11 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  8  /  87 	 (truth == 0) & (prediction >= threshold)
+ TN =  79  /  87 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.543 	 0.593 	 	0.888 	 	0.727 	 	0.908		0.500	 	0.963	 	0.418	0.818
+
+exe = 35
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.4444291
+ROC AUC 		0.7747253
+
+
+TOTAL:
+
+ FN =  3  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  4  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  91 	 (truth == 0) & (prediction >= threshold)
+ TN =  89  /  91 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.590 	 0.615 	 	0.949 	 	0.571 	 	0.978		0.667	 	0.967	 	0.444	0.775
+
+exe = 36
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.3762099
+ROC AUC 		0.8115942
+
+
+TOTAL:
+
+ FN =  2  /  6 	 (truth == 1) & (prediction < threshold)
+ TP =  4  /  6 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  92 	 (truth == 0) & (prediction >= threshold)
+ TN =  88  /  92 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.546 	 0.571 	 	0.939 	 	0.667 	 	0.957		0.500	 	0.978	 	0.376	0.812
+
+exe = 37
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.1789857
+ROC AUC 		0.6703297
+
+
+TOTAL:
+
+ FN =  4  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  8  /  91 	 (truth == 0) & (prediction >= threshold)
+ TN =  83  /  91 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.278 	 0.333 	 	0.878 	 	0.429 	 	0.912		0.273	 	0.954	 	0.179	0.670
+
+exe = 38
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.219694
+ROC AUC 		0.7173913
+
+
+TOTAL:
+
+ FN =  3  /  6 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  6 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  6  /  92 	 (truth == 0) & (prediction >= threshold)
+ TN =  86  /  92 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.361 	 0.400 	 	0.908 	 	0.500 	 	0.935		0.333	 	0.966	 	0.220	0.717
+
+exe = 39
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.10004
+ROC AUC 		0.645614
+
+
+TOTAL:
+
+ FN =  2  /  3 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  3 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  95 	 (truth == 0) & (prediction >= threshold)
+ TN =  91  /  95 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.228 	 0.250 	 	0.939 	 	0.333 	 	0.958		0.200	 	0.978	 	0.100	0.646
+
+exe = 40
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.4359859
+ROC AUC 		0.7578313
+
+
+TOTAL:
+
+ FN =  6  /  15 	 (truth == 1) & (prediction < threshold)
+ TP =  9  /  15 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  7  /  83 	 (truth == 0) & (prediction >= threshold)
+ TN =  76  /  83 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.502 	 0.581 	 	0.867 	 	0.600 	 	0.916		0.562	 	0.927	 	0.436	0.758
+
+exe = 41
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.4509569
+ROC AUC 		0.8472222
+
+
+TOTAL:
+
+ FN =  2  /  8 	 (truth == 1) & (prediction < threshold)
+ TP =  6  /  8 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  5  /  90 	 (truth == 0) & (prediction >= threshold)
+ TN =  85  /  90 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.602 	 0.632 	 	0.929 	 	0.750 	 	0.944		0.545	 	0.977	 	0.451	0.847
+
+exe = 42
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.3663487
+ROC AUC 		0.7280543
+
+
+TOTAL:
+
+ FN =  6  /  13 	 (truth == 1) & (prediction < threshold)
+ TP =  7  /  13 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  7  /  85 	 (truth == 0) & (prediction >= threshold)
+ TN =  78  /  85 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.442 	 0.519 	 	0.867 	 	0.538 	 	0.918		0.500	 	0.929	 	0.366	0.728
+
+exe = 43
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.5445043
+ROC AUC 		0.8583333
+
+
+TOTAL:
+
+ FN =  2  /  8 	 (truth == 1) & (prediction < threshold)
+ TP =  6  /  8 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  90 	 (truth == 0) & (prediction >= threshold)
+ TN =  87  /  90 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.679 	 0.706 	 	0.949 	 	0.750 	 	0.967		0.667	 	0.978	 	0.545	0.858
+
+exe = 44
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.268705
+ROC AUC 		0.7166667
+
+
+TOTAL:
+
+ FN =  4  /  8 	 (truth == 1) & (prediction < threshold)
+ TP =  4  /  8 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  6  /  90 	 (truth == 0) & (prediction >= threshold)
+ TN =  84  /  90 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.392 	 0.444 	 	0.898 	 	0.500 	 	0.933		0.400	 	0.955	 	0.269	0.717
+
+exe = 45
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.2390126
+ROC AUC 		0.7677419
+
+
+TOTAL:
+
+ FN =  2  /  5 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  5 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  6  /  93 	 (truth == 0) & (prediction >= threshold)
+ TN =  87  /  93 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.408 	 0.429 	 	0.918 	 	0.600 	 	0.935		0.333	 	0.978	 	0.239	0.768
+
+exe = 46
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.5643149
+ROC AUC 		0.8220974
+
+
+TOTAL:
+
+ FN =  3  /  9 	 (truth == 1) & (prediction < threshold)
+ TP =  6  /  9 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  89 	 (truth == 0) & (prediction >= threshold)
+ TN =  87  /  89 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.679 	 0.706 	 	0.949 	 	0.667 	 	0.978		0.750	 	0.967	 	0.564	0.822
+
+exe = 47
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.261579
+ROC AUC 		0.7472527
+
+
+TOTAL:
+
+ FN =  3  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  4  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  7  /  91 	 (truth == 0) & (prediction >= threshold)
+ TN =  84  /  91 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.403 	 0.444 	 	0.898 	 	0.571 	 	0.923		0.364	 	0.966	 	0.262	0.747
+
+exe = 48
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.5
+ROC AUC 		0.9615385
+
+
+TOTAL:
+
+ FN =  0  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  7  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  7  /  91 	 (truth == 0) & (prediction >= threshold)
+ TN =  84  /  91 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.679 	 0.667 	 	0.929 	 	1.000 	 	0.923		0.500	 	1.000	 	0.500	0.962
+
+exe = 49
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.3580085
+ROC AUC 		0.7382445
+
+
+TOTAL:
+
+ FN =  5  /  11 	 (truth == 1) & (prediction < threshold)
+ TP =  6  /  11 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  6  /  87 	 (truth == 0) & (prediction >= threshold)
+ TN =  81  /  87 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.459 	 0.522 	 	0.888 	 	0.545 	 	0.931		0.500	 	0.942	 	0.358	0.738
+
+exe = 50
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.5
+ROC AUC 		0.9673913
+
+
+TOTAL:
+
+ FN =  0  /  6 	 (truth == 1) & (prediction < threshold)
+ TP =  6  /  6 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  6  /  92 	 (truth == 0) & (prediction >= threshold)
+ TN =  86  /  92 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.684 	 0.667 	 	0.939 	 	1.000 	 	0.935		0.500	 	1.000	 	0.500	0.967
+
+exe = 51
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.3427424
+ROC AUC 		0.7053683
+
+
+TOTAL:
+
+ FN =  5  /  9 	 (truth == 1) & (prediction < threshold)
+ TP =  4  /  9 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  89 	 (truth == 0) & (prediction >= threshold)
+ TN =  86  /  89 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.461 	 0.500 	 	0.918 	 	0.444 	 	0.966		0.571	 	0.945	 	0.343	0.705
+
+exe = 52
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.2534076
+ROC AUC 		0.6923077
+
+
+TOTAL:
+
+ FN =  4  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  91 	 (truth == 0) & (prediction >= threshold)
+ TN =  87  /  91 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.385 	 0.429 	 	0.918 	 	0.429 	 	0.956		0.429	 	0.956	 	0.253	0.692
+
+exe = 53
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.5335836
+ROC AUC 		0.8715909
+
+
+TOTAL:
+
+ FN =  2  /  10 	 (truth == 1) & (prediction < threshold)
+ TP =  8  /  10 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  5  /  88 	 (truth == 0) & (prediction >= threshold)
+ TN =  83  /  88 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.663 	 0.696 	 	0.929 	 	0.800 	 	0.943		0.615	 	0.976	 	0.534	0.872
+
+exe = 54
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.4506766
+ROC AUC 		0.8956044
+
+
+TOTAL:
+
+ FN =  1  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  6  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  6  /  91 	 (truth == 0) & (prediction >= threshold)
+ TN =  85  /  91 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.622 	 0.632 	 	0.929 	 	0.857 	 	0.934		0.500	 	0.988	 	0.451	0.896
+
+exe = 55
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.1789857
+ROC AUC 		0.6703297
+
+
+TOTAL:
+
+ FN =  4  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  8  /  91 	 (truth == 0) & (prediction >= threshold)
+ TN =  83  /  91 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.278 	 0.333 	 	0.878 	 	0.429 	 	0.912		0.273	 	0.954	 	0.179	0.670
+
+exe = 56
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.4453275
+ROC AUC 		0.7894462
+
+
+TOTAL:
+
+ FN =  4  /  11 	 (truth == 1) & (prediction < threshold)
+ TP =  7  /  11 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  5  /  87 	 (truth == 0) & (prediction >= threshold)
+ TN =  82  /  87 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.557 	 0.609 	 	0.908 	 	0.636 	 	0.943		0.583	 	0.953	 	0.445	0.789
+
+exe = 57
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.3400893
+ROC AUC 		0.7883895
+
+
+TOTAL:
+
+ FN =  3  /  9 	 (truth == 1) & (prediction < threshold)
+ TP =  6  /  9 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  8  /  89 	 (truth == 0) & (prediction >= threshold)
+ TN =  81  /  89 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.476 	 0.522 	 	0.888 	 	0.667 	 	0.910		0.429	 	0.964	 	0.340	0.788
+
+exe = 58
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.4810439
+ROC AUC 		0.7951933
+
+
+TOTAL:
+
+ FN =  4  /  11 	 (truth == 1) & (prediction < threshold)
+ TP =  7  /  11 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  87 	 (truth == 0) & (prediction >= threshold)
+ TN =  83  /  87 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.590 	 0.636 	 	0.918 	 	0.636 	 	0.954		0.636	 	0.954	 	0.481	0.795
+
+exe = 59
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.3023871
+ROC AUC 		0.69279
+
+
+TOTAL:
+
+ FN =  6  /  11 	 (truth == 1) & (prediction < threshold)
+ TP =  5  /  11 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  6  /  87 	 (truth == 0) & (prediction >= threshold)
+ TN =  81  /  87 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.386 	 0.455 	 	0.878 	 	0.455 	 	0.931		0.455	 	0.931	 	0.302	0.693
+
+exe = 60
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.1242529
+ROC AUC 		0.5989011
+
+
+TOTAL:
+
+ FN =  5  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  8  /  91 	 (truth == 0) & (prediction >= threshold)
+ TN =  83  /  91 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.168 	 0.235 	 	0.867 	 	0.286 	 	0.912		0.200	 	0.943	 	0.124	0.599
+
+exe = 61
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.1729322
+ROC AUC 		0.5726744
+
+
+TOTAL:
+
+ FN =  9  /  12 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  12 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  9  /  86 	 (truth == 0) & (prediction >= threshold)
+ TN =  77  /  86 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.145 	 0.250 	 	0.816 	 	0.250 	 	0.895		0.250	 	0.895	 	0.173	0.573
+
+exe = 62
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.2808248
+ROC AUC 		0.6941323
+
+
+TOTAL:
+
+ FN =  5  /  9 	 (truth == 1) & (prediction < threshold)
+ TP =  4  /  9 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  5  /  89 	 (truth == 0) & (prediction >= threshold)
+ TN =  84  /  89 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.388 	 0.444 	 	0.898 	 	0.444 	 	0.944		0.444	 	0.944	 	0.281	0.694
+
+exe = 63
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.3379009
+ROC AUC 		0.825
+
+
+TOTAL:
+
+ FN =  2  /  8 	 (truth == 1) & (prediction < threshold)
+ TP =  6  /  8 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  9  /  90 	 (truth == 0) & (prediction >= threshold)
+ TN =  81  /  90 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.494 	 0.522 	 	0.888 	 	0.750 	 	0.900		0.400	 	0.976	 	0.338	0.825
+
+exe = 64
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.4291153
+ROC AUC 		0.8930556
+
+
+TOTAL:
+
+ FN =  1  /  8 	 (truth == 1) & (prediction < threshold)
+ TP =  7  /  8 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  8  /  90 	 (truth == 0) & (prediction >= threshold)
+ TN =  82  /  90 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.598 	 0.609 	 	0.908 	 	0.875 	 	0.911		0.467	 	0.988	 	0.429	0.893
+
+exe = 65
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.3653397
+ROC AUC 		0.8241758
+
+
+TOTAL:
+
+ FN =  2  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  5  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  6  /  91 	 (truth == 0) & (prediction >= threshold)
+ TN =  85  /  91 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.529 	 0.556 	 	0.918 	 	0.714 	 	0.934		0.455	 	0.977	 	0.365	0.824
+
+exe = 66
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.4810439
+ROC AUC 		0.7951933
+
+
+TOTAL:
+
+ FN =  4  /  11 	 (truth == 1) & (prediction < threshold)
+ TP =  7  /  11 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  87 	 (truth == 0) & (prediction >= threshold)
+ TN =  83  /  87 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.590 	 0.636 	 	0.918 	 	0.636 	 	0.954		0.636	 	0.954	 	0.481	0.795
+
+exe = 67
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.346967
+ROC AUC 		0.7602273
+
+
+TOTAL:
+
+ FN =  4  /  10 	 (truth == 1) & (prediction < threshold)
+ TP =  6  /  10 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  7  /  88 	 (truth == 0) & (prediction >= threshold)
+ TN =  81  /  88 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.464 	 0.522 	 	0.888 	 	0.600 	 	0.920		0.462	 	0.953	 	0.347	0.760
+
+exe = 68
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.3717592
+ROC AUC 		0.7659091
+
+
+TOTAL:
+
+ FN =  4  /  10 	 (truth == 1) & (prediction < threshold)
+ TP =  6  /  10 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  6  /  88 	 (truth == 0) & (prediction >= threshold)
+ TN =  82  /  88 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.491 	 0.545 	 	0.898 	 	0.600 	 	0.932		0.500	 	0.953	 	0.372	0.766
+
+exe = 69
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.2784014
+ROC AUC 		0.6676357
+
+
+TOTAL:
+
+ FN =  7  /  12 	 (truth == 1) & (prediction < threshold)
+ TP =  5  /  12 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  7  /  86 	 (truth == 0) & (prediction >= threshold)
+ TN =  79  /  86 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.335 	 0.417 	 	0.857 	 	0.417 	 	0.919		0.417	 	0.919	 	0.278	0.668
+
+exe = 70
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.3903925
+ROC AUC 		0.7996255
+
+
+TOTAL:
+
+ FN =  3  /  9 	 (truth == 1) & (prediction < threshold)
+ TP =  6  /  9 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  6  /  89 	 (truth == 0) & (prediction >= threshold)
+ TN =  83  /  89 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.528 	 0.571 	 	0.908 	 	0.667 	 	0.933		0.500	 	0.965	 	0.390	0.800
+
+exe = 71
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.3126833
+ROC AUC 		0.8623656
+
+
+TOTAL:
+
+ FN =  1  /  5 	 (truth == 1) & (prediction < threshold)
+ TP =  4  /  5 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  7  /  93 	 (truth == 0) & (prediction >= threshold)
+ TN =  86  /  93 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.505 	 0.500 	 	0.918 	 	0.800 	 	0.925		0.364	 	0.989	 	0.313	0.862
+
+exe = 72
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.3485867
+ROC AUC 		0.6626725
+
+
+TOTAL:
+
+ FN =  10  /  17 	 (truth == 1) & (prediction < threshold)
+ TP =  7  /  17 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  7  /  81 	 (truth == 0) & (prediction >= threshold)
+ TN =  74  /  81 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.352 	 0.452 	 	0.827 	 	0.412 	 	0.914		0.500	 	0.881	 	0.349	0.663
+
+exe = 73
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.3109091
+ROC AUC 		0.7159091
+
+
+TOTAL:
+
+ FN =  5  /  10 	 (truth == 1) & (prediction < threshold)
+ TP =  5  /  10 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  6  /  88 	 (truth == 0) & (prediction >= threshold)
+ TN =  82  /  88 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.414 	 0.476 	 	0.888 	 	0.500 	 	0.932		0.455	 	0.943	 	0.311	0.716
+
+exe = 74
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.4929644
+ROC AUC 		0.9041667
+
+
+TOTAL:
+
+ FN =  1  /  8 	 (truth == 1) & (prediction < threshold)
+ TP =  7  /  8 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  6  /  90 	 (truth == 0) & (prediction >= threshold)
+ TN =  84  /  90 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.652 	 0.667 	 	0.929 	 	0.875 	 	0.933		0.538	 	0.988	 	0.493	0.904
+
+exe = 75
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.3424322
+ROC AUC 		0.8677419
+
+
+TOTAL:
+
+ FN =  1  /  5 	 (truth == 1) & (prediction < threshold)
+ TP =  4  /  5 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  6  /  93 	 (truth == 0) & (prediction >= threshold)
+ TN =  87  /  93 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.535 	 0.533 	 	0.929 	 	0.800 	 	0.935		0.400	 	0.989	 	0.342	0.868
+
+exe = 76
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.39244
+ROC AUC 		0.7072398
+
+
+TOTAL:
+
+ FN =  7  /  13 	 (truth == 1) & (prediction < threshold)
+ TP =  6  /  13 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  85 	 (truth == 0) & (prediction >= threshold)
+ TN =  81  /  85 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.464 	 0.522 	 	0.888 	 	0.462 	 	0.953		0.600	 	0.920	 	0.392	0.707
+
+exe = 77
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.3355888
+ROC AUC 		0.6785714
+
+
+TOTAL:
+
+ FN =  8  /  14 	 (truth == 1) & (prediction < threshold)
+ TP =  6  /  14 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  6  /  84 	 (truth == 0) & (prediction >= threshold)
+ TN =  78  /  84 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.381 	 0.462 	 	0.857 	 	0.429 	 	0.929		0.500	 	0.907	 	0.336	0.679
+
+exe = 78
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.3730909
+ROC AUC 		0.7209302
+
+
+TOTAL:
+
+ FN =  6  /  12 	 (truth == 1) & (prediction < threshold)
+ TP =  6  /  12 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  5  /  86 	 (truth == 0) & (prediction >= threshold)
+ TN =  81  /  86 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.459 	 0.522 	 	0.888 	 	0.500 	 	0.942		0.545	 	0.931	 	0.373	0.721
+
+exe = 79
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.2662461
+ROC AUC 		0.6812957
+
+
+TOTAL:
+
+ FN =  6  /  11 	 (truth == 1) & (prediction < threshold)
+ TP =  5  /  11 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  8  /  87 	 (truth == 0) & (prediction >= threshold)
+ TN =  79  /  87 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.337 	 0.417 	 	0.857 	 	0.455 	 	0.908		0.385	 	0.929	 	0.266	0.681
+
+exe = 80
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.4902679
+ROC AUC 		0.9010989
+
+
+TOTAL:
+
+ FN =  1  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  6  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  5  /  91 	 (truth == 0) & (prediction >= threshold)
+ TN =  86  /  91 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.654 	 0.667 	 	0.939 	 	0.857 	 	0.945		0.545	 	0.989	 	0.490	0.901
+
+exe = 81
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.1753569
+ROC AUC 		0.6045455
+
+
+TOTAL:
+
+ FN =  7  /  10 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  10 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  8  /  88 	 (truth == 0) & (prediction >= threshold)
+ TN =  80  /  88 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.201 	 0.286 	 	0.847 	 	0.300 	 	0.909		0.273	 	0.920	 	0.175	0.605
+
+exe = 82
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.2138838
+ROC AUC 		0.5892857
+
+
+TOTAL:
+
+ FN =  10  /  14 	 (truth == 1) & (prediction < threshold)
+ TP =  4  /  14 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  9  /  84 	 (truth == 0) & (prediction >= threshold)
+ TN =  75  /  84 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.184 	 0.296 	 	0.806 	 	0.286 	 	0.893		0.308	 	0.882	 	0.214	0.589
+
+exe = 83
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.4561755
+ROC AUC 		0.7554859
+
+
+TOTAL:
+
+ FN =  5  /  11 	 (truth == 1) & (prediction < threshold)
+ TP =  6  /  11 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  3  /  87 	 (truth == 0) & (prediction >= threshold)
+ TN =  84  /  87 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.559 	 0.600 	 	0.918 	 	0.545 	 	0.966		0.667	 	0.944	 	0.456	0.755
+
+exe = 84
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.3883523
+ROC AUC 		0.8846154
+
+
+TOTAL:
+
+ FN =  1  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  6  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  8  /  91 	 (truth == 0) & (prediction >= threshold)
+ TN =  83  /  91 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.566 	 0.571 	 	0.908 	 	0.857 	 	0.912		0.429	 	0.988	 	0.388	0.885
+
+exe = 85
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.346967
+ROC AUC 		0.7602273
+
+
+TOTAL:
+
+ FN =  4  /  10 	 (truth == 1) & (prediction < threshold)
+ TP =  6  /  10 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  7  /  88 	 (truth == 0) & (prediction >= threshold)
+ TN =  81  /  88 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.464 	 0.522 	 	0.888 	 	0.600 	 	0.920		0.462	 	0.953	 	0.347	0.760
+
+exe = 86
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.4286269
+ROC AUC 		0.7625969
+
+
+TOTAL:
+
+ FN =  5  /  12 	 (truth == 1) & (prediction < threshold)
+ TP =  7  /  12 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  5  /  86 	 (truth == 0) & (prediction >= threshold)
+ TN =  81  /  86 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.525 	 0.583 	 	0.898 	 	0.583 	 	0.942		0.583	 	0.942	 	0.429	0.763
+
+exe = 87
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.3445427
+ROC AUC 		0.7637363
+
+
+TOTAL:
+
+ FN =  3  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  4  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  91 	 (truth == 0) & (prediction >= threshold)
+ TN =  87  /  91 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.496 	 0.533 	 	0.929 	 	0.571 	 	0.956		0.500	 	0.967	 	0.345	0.764
+
+exe = 88
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.4618581
+ROC AUC 		0.7684109
+
+
+TOTAL:
+
+ FN =  5  /  12 	 (truth == 1) & (prediction < threshold)
+ TP =  7  /  12 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  86 	 (truth == 0) & (prediction >= threshold)
+ TN =  82  /  86 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.557 	 0.609 	 	0.908 	 	0.583 	 	0.953		0.636	 	0.943	 	0.462	0.768
+
+exe = 89
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.4400222
+ROC AUC 		0.8351648
+
+
+TOTAL:
+
+ FN =  2  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  5  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  91 	 (truth == 0) & (prediction >= threshold)
+ TN =  87  /  91 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.598 	 0.625 	 	0.939 	 	0.714 	 	0.956		0.556	 	0.978	 	0.440	0.835
+
+exe = 90
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.1364245
+ROC AUC 		0.6623656
+
+
+TOTAL:
+
+ FN =  3  /  5 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  5 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  7  /  93 	 (truth == 0) & (prediction >= threshold)
+ TN =  86  /  93 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.247 	 0.286 	 	0.898 	 	0.400 	 	0.925		0.222	 	0.966	 	0.136	0.662
+
+exe = 91
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.1569732
+ROC AUC 		0.6104869
+
+
+TOTAL:
+
+ FN =  6  /  9 	 (truth == 1) & (prediction < threshold)
+ TP =  3  /  9 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  10  /  89 	 (truth == 0) & (prediction >= threshold)
+ TN =  79  /  89 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.188 	 0.273 	 	0.837 	 	0.333 	 	0.888		0.231	 	0.929	 	0.157	0.610
+
+exe = 92
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.3070106
+ROC AUC 		0.7488636
+
+
+TOTAL:
+
+ FN =  4  /  10 	 (truth == 1) & (prediction < threshold)
+ TP =  6  /  10 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  9  /  88 	 (truth == 0) & (prediction >= threshold)
+ TN =  79  /  88 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.418 	 0.480 	 	0.867 	 	0.600 	 	0.898		0.400	 	0.952	 	0.307	0.749
+
+exe = 93
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.1088181
+ROC AUC 		0.6914894
+
+
+TOTAL:
+
+ FN =  2  /  4 	 (truth == 1) & (prediction < threshold)
+ TP =  2  /  4 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  11  /  94 	 (truth == 0) & (prediction >= threshold)
+ TN =  83  /  94 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.223 	 0.235 	 	0.867 	 	0.500 	 	0.883		0.154	 	0.976	 	0.109	0.691
+
+exe = 94
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.3405813
+ROC AUC 		0.7791667
+
+
+TOTAL:
+
+ FN =  3  /  8 	 (truth == 1) & (prediction < threshold)
+ TP =  5  /  8 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  6  /  90 	 (truth == 0) & (prediction >= threshold)
+ TN =  84  /  90 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.484 	 0.526 	 	0.908 	 	0.625 	 	0.933		0.455	 	0.966	 	0.341	0.779
+
+exe = 95
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.3109182
+ROC AUC 		0.7582418
+
+
+TOTAL:
+
+ FN =  3  /  7 	 (truth == 1) & (prediction < threshold)
+ TP =  4  /  7 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  5  /  91 	 (truth == 0) & (prediction >= threshold)
+ TN =  86  /  91 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.461 	 0.500 	 	0.918 	 	0.571 	 	0.945		0.444	 	0.966	 	0.311	0.758
+
+exe = 96
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.3379009
+ROC AUC 		0.825
+
+
+TOTAL:
+
+ FN =  2  /  8 	 (truth == 1) & (prediction < threshold)
+ TP =  6  /  8 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  9  /  90 	 (truth == 0) & (prediction >= threshold)
+ TN =  81  /  90 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.494 	 0.522 	 	0.888 	 	0.750 	 	0.900		0.400	 	0.976	 	0.338	0.825
+
+exe = 97
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.2869659
+ROC AUC 		0.6434109
+
+
+TOTAL:
+
+ FN =  8  /  12 	 (truth == 1) & (prediction < threshold)
+ TP =  4  /  12 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  86 	 (truth == 0) & (prediction >= threshold)
+ TN =  82  /  86 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.343 	 0.400 	 	0.878 	 	0.333 	 	0.953		0.500	 	0.911	 	0.287	0.643
+
+exe = 98
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.09450005
+ROC AUC 		0.5784946
+
+
+TOTAL:
+
+ FN =  4  /  5 	 (truth == 1) & (prediction < threshold)
+ TP =  1  /  5 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  4  /  93 	 (truth == 0) & (prediction >= threshold)
+ TN =  89  /  93 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.157 	 0.200 	 	0.918 	 	0.200 	 	0.957		0.200	 	0.957	 	0.095	0.578
+
+exe = 99
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.608577
+ROC AUC 		0.8638889
+
+
+TOTAL:
+
+ FN =  2  /  8 	 (truth == 1) & (prediction < threshold)
+ TP =  6  /  8 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  2  /  90 	 (truth == 0) & (prediction >= threshold)
+ TN =  88  /  90 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.728 	 0.750 	 	0.959 	 	0.750 	 	0.978		0.750	 	0.978	 	0.609	0.864
+
+exe = 100
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+training_set_perce = 80%
+[Creating the subsets for the values]
+
+PR AUC (integral) 	0.4453275
+ROC AUC 		0.7894462
+
+
+TOTAL:
+
+ FN =  4  /  11 	 (truth == 1) & (prediction < threshold)
+ TP =  7  /  11 	 (truth == 1) & (prediction >= threshold)
+
+ FP =  5  /  87 	 (truth == 0) & (prediction >= threshold)
+ TN =  82  /  87 	 (truth == 0) & (prediction < threshold)
+
+
+
+ @@@ Test set @@@ 	MCC 	 F1_score 	accuracy 	TP_rate 	TN_rate 	PPV 		NPV 		PR AUC 	ROC AUC
+@@@ Test set @@@      0.557 	 0.609 	 	0.908 	 	0.636 	 	0.943		0.583	 	0.953	 	0.445	0.789
+
+
+
+
+=== final results ===
+Number of executions = 100
+
+
+=== === === ===
+                 MCC F1_score accuracy TP_rate TN_rate     PPV     NPV  PR_AUC
+nbr.val      100.000  100.000  100.000 100.000 100.000 100.000 100.000 100.000
+nbr.null       0.000    0.000    0.000   0.000   0.000   0.000   0.000   0.000
+nbr.na         0.000    0.000    0.000   0.000   0.000   0.000   0.000   0.000
+min            0.145    0.200    0.806   0.200   0.844   0.154   0.881   0.095
+max            0.728    0.750    0.959   1.000   0.978   0.750   1.000   0.609
+range          0.582    0.550    0.153   0.800   0.134   0.596   0.119   0.514
+sum           46.865   50.724   90.347  60.384  93.301  45.827  96.023  34.531
+median         0.479    0.522    0.908   0.600   0.934   0.464   0.965   0.344
+mean           0.469    0.507    0.903   0.604   0.933   0.458   0.960   0.345
+SE.mean        0.014    0.013    0.003   0.018   0.002   0.014   0.002   0.012
+CI.mean.0.95   0.028    0.026    0.006   0.035   0.005   0.028   0.005   0.024
+var            0.020    0.017    0.001   0.031   0.001   0.020   0.001   0.015
+std.dev        0.141    0.130    0.031   0.177   0.025   0.141   0.024   0.122
+coef.var       0.302    0.256    0.034   0.293   0.027   0.307   0.025   0.353
+             ROC_AUC
+nbr.val      100.000
+nbr.null       0.000
+nbr.na         0.000
+min            0.573
+max            0.973
+range          0.400
+sum           76.843
+median         0.767
+mean           0.768
+SE.mean        0.009
+CI.mean.0.95   0.018
+var            0.008
+std.dev        0.089
+coef.var       0.116
+
+
+=== === === ===
+          MCC F1_score accuracy TP_rate TN_rate   PPV   NPV PR_AUC ROC_AUC
+mean    0.469    0.507    0.903   0.604   0.933 0.458 0.960  0.345   0.768
+std.dev 0.141    0.130    0.031   0.177   0.025 0.141 0.024  0.122   0.089
+
+
+=== === === ===

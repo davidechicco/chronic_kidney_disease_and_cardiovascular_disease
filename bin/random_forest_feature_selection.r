@@ -87,6 +87,7 @@ cat("Read data from file ", fileNameData, "\n", sep="")
 patients_data$"TriglyceridesBaseline" <- NULL
 patients_data$"HgbA1C" <- NULL
 patients_data$"TimeToEventMonths" <- NULL
+patients_data$"Age.3.categories" <- NULL
 
 # rename target
 names(patients_data)[names(patients_data) == targetName] <- "target"

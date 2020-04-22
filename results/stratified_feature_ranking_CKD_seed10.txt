@@ -1,0 +1,3739 @@
+script_dir: .
+Read data from file ../data/journal.pone.0199920.s002_EDITED.csv
+nrow(patients_data) = 491
+ncol(patients_data) = 21
+Number of executions = 100
+
+
+[Execution number 1 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 2 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 3 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 4 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 5 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 6 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 7 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 8 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 9 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 10 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 11 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 12 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 13 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 14 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 15 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 16 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 17 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 18 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 19 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 20 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 21 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 22 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 23 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 24 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 25 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 26 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 27 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 28 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 29 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 30 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 31 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 32 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 33 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 34 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 35 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 36 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 37 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 38 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 39 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 40 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 41 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 42 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 43 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 44 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 45 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 46 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 47 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 48 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 49 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 50 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 51 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 52 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 53 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 54 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 55 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 56 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 57 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 58 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 59 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 60 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 61 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 62 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 63 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 64 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 65 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 66 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 67 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 68 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 69 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 70 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 71 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 72 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 73 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 74 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 75 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 76 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 77 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 78 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 79 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 80 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 81 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 82 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 83 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 84 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 85 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 86 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 87 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 88 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 89 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 90 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 91 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 92 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 93 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 94 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 95 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 96 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 97 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 98 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 99 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+[Execution number 100 of the logistic regression]
+== temporary ranking == 
+top clinical_features: 
+- - - - - - - - - - - - - - - - - - - - - 
+                        Overall    clinical_feature
+ACEIARB             1.850081032             ACEIARB
+AgeBaseline         0.002780455         AgeBaseline
+BMIBaseline         1.311313818         BMIBaseline
+CholesterolBaseline 0.877766574 CholesterolBaseline
+CreatinineBaseline  0.005735574  CreatinineBaseline
+dBPBaseline         2.427878354         dBPBaseline
+DLDmeds             0.136239756             DLDmeds
+DMmeds              0.445362873              DMmeds
+eGFRBaseline        0.796129901        eGFRBaseline
+factor(TIME_YEAR)1  0.014694252  factor(TIME_YEAR)1
+factor(TIME_YEAR)10 0.015115934 factor(TIME_YEAR)10
+factor(TIME_YEAR)2  0.015206623  factor(TIME_YEAR)2
+factor(TIME_YEAR)3  0.013941446  factor(TIME_YEAR)3
+factor(TIME_YEAR)4  0.014727195  factor(TIME_YEAR)4
+factor(TIME_YEAR)5  0.014667886  factor(TIME_YEAR)5
+factor(TIME_YEAR)6  0.014943175  factor(TIME_YEAR)6
+factor(TIME_YEAR)7  0.014198456  factor(TIME_YEAR)7
+factor(TIME_YEAR)8  0.013069483  factor(TIME_YEAR)8
+factor(TIME_YEAR)9  0.010586024  factor(TIME_YEAR)9
+HistoryCHD          0.868564043          HistoryCHD
+HistoryDiabetes     1.521386799     HistoryDiabetes
+HistoryDLD          0.158375036          HistoryDLD
+HistoryHTN          2.315610655          HistoryHTN
+HistoryObesity      0.182984869      HistoryObesity
+HistorySmoking      1.677718519      HistorySmoking
+HistoryVascular     0.187360590     HistoryVascular
+HTNmeds             2.564868539             HTNmeds
+sBPBaseline         1.424925851         sBPBaseline
+Sex                 0.345897338                 Sex
+- - - - - - - - - - - - - - - - - - - - - 
+
+
+
+ == final ranking after 100 executions
+                       clinical_feature finalOverall finalPos
+HTNmeds                         HTNmeds  2.564868539        1
+dBPBaseline                 dBPBaseline  2.427878354        2
+HistoryHTN                   HistoryHTN  2.315610655        3
+ACEIARB                         ACEIARB  1.850081032        4
+HistorySmoking           HistorySmoking  1.677718519        5
+HistoryDiabetes         HistoryDiabetes  1.521386799        6
+sBPBaseline                 sBPBaseline  1.424925851        7
+BMIBaseline                 BMIBaseline  1.311313818        8
+CholesterolBaseline CholesterolBaseline  0.877766574        9
+HistoryCHD                   HistoryCHD  0.868564043       10
+eGFRBaseline               eGFRBaseline  0.796129901       11
+DMmeds                           DMmeds  0.445362873       12
+Sex                                 Sex  0.345897338       13
+HistoryVascular         HistoryVascular  0.187360590       14
+HistoryObesity           HistoryObesity  0.182984869       15
+HistoryDLD                   HistoryDLD  0.158375036       16
+DLDmeds                         DLDmeds  0.136239756       17
+factor(TIME_YEAR)2   factor(TIME_YEAR)2  0.015206623       18
+factor(TIME_YEAR)10 factor(TIME_YEAR)10  0.015115934       19
+factor(TIME_YEAR)6   factor(TIME_YEAR)6  0.014943175       20
+factor(TIME_YEAR)4   factor(TIME_YEAR)4  0.014727195       21
+factor(TIME_YEAR)1   factor(TIME_YEAR)1  0.014694252       22
+factor(TIME_YEAR)5   factor(TIME_YEAR)5  0.014667886       23
+factor(TIME_YEAR)7   factor(TIME_YEAR)7  0.014198456       24
+factor(TIME_YEAR)3   factor(TIME_YEAR)3  0.013941446       25
+factor(TIME_YEAR)8   factor(TIME_YEAR)8  0.013069483       26
+factor(TIME_YEAR)9   factor(TIME_YEAR)9  0.010586024       27
+CreatinineBaseline   CreatinineBaseline  0.005735574       28
+AgeBaseline                 AgeBaseline  0.002780455       29
