@@ -1,0 +1,76 @@
+Decision tree
+mcc:    +0.253 pm 0.085
+f1:     0.345 pm 0.078
+acc:    0.747 pm 0.036
+rec:    0.588 pm 0.079
+spec:   0.767 pm 0.036
+ppv:    0.244 pm 0.067
+npv:    0.936 pm 0.015
+prauc:  0.274 pm 0.013
+rocauc: 0.678 pm 0.050
+
+Multi-layer perceptron
+mcc:    +0.302 pm 0.075
+f1:     0.353 pm 0.065
+acc:    0.840 pm 0.028
+rec:    0.436 pm 0.173
+spec:   0.882 pm 0.048
+ppv:    0.313 pm 0.046
+npv:    0.912 pm 0.052
+prauc:  0.257 pm 0.032
+rocauc: 0.669 pm 0.066
+
+One rule
+mcc:    +0.145 pm 0.063
+f1:     0.267 pm 0.044
+acc:    0.707 pm 0.034
+rec:    0.471 pm 0.094
+spec:   0.737 pm 0.035
+ppv:    0.186 pm 0.035
+npv:    0.916 pm 0.021
+prauc:  0.179 pm 0.017
+rocauc: 0.604 pm 0.051
+
+Random forests
+mcc:    +0.499 pm 0.035
+f1:     0.549 pm 0.034
+acc:    0.844 pm 0.012
+rec:    0.792 pm 0.038
+spec:   0.851 pm 0.012
+ppv:    0.420 pm 0.034
+npv:    0.968 pm 0.006
+prauc:  0.473 pm 0.046
+rocauc: 0.883 pm 0.015
+
+SVM kernel
+mcc:    +0.319 pm 0.065
+f1:     0.387 pm 0.063
+acc:    0.873 pm 0.018
+rec:    0.353 pm 0.082
+spec:   0.940 pm 0.009
+ppv:    0.429 pm 0.068
+npv:    0.919 pm 0.021
+prauc:  0.275 pm 0.032
+rocauc: 0.646 pm 0.040
+
+SVM linear
+mcc:    +0.266 pm 0.113
+f1:     0.340 pm 0.077
+acc:    0.767 pm 0.032
+rec:    0.600 pm 0.193
+spec:   0.785 pm 0.032
+ppv:    0.237 pm 0.051
+npv:    0.946 pm 0.023
+prauc:  0.280 pm 0.018
+rocauc: 0.693 pm 0.095
+
+XgBoost
+mcc:    +0.160 pm 0.033
+f1:     0.286 pm 0.033
+acc:    0.767 pm 0.035
+rec:    0.368 pm 0.056
+spec:   0.824 pm 0.044
+ppv:    0.233 pm 0.036
+npv:    0.900 pm 0.012
+prauc:  0.267 pm 0.017
+rocauc: 0.596 pm 0.019
