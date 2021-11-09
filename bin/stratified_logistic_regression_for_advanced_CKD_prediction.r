@@ -7,7 +7,7 @@ cat("set.seed(", thisSeed, ")\n", sep="")
 # Survival analysis and the stratified sample:
 # https://towardsdatascience.com/survival-analysis-and-the-stratified-sample-2c2582aa9805
 
-list.of.packages <- c("easypackages", "survival",  "dplyr", "survminer", "stats", "PRROC", "formula.tools", "dplyr", "pastecs")
+list.of.packages <- c("easypackages", "survival",  "dplyr", "survminer", "stats", "PRROC", "formula.tools", "dplyr", "pastecs", "gbm")
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages, repos='http://cran.us.r-project.org')
 
@@ -95,6 +95,8 @@ for(exe_i in 1:execution_number)
 
 }
 
+
+calibrate.plot(prc_data_test_labels, as.numeric(prc_data_test_pred), xlim=c(0,1), ylim=c(0,1),   shade.col = "gray")
 
 cat("\n\n\n=== final results ===\n")
  
