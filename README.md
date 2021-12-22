@@ -11,7 +11,7 @@ Install `R` (version ≥ 4.0.1) and call the R scripts; for example:
 ## Article
 More information can be found in this peer-reviewed published article:
 
-> Davide Chicco, Christopher A. Lovejoy, and Luca Oneto, ["A machine learning analysis of health records of patients with chronic kidney disease at risk of cardiovascular disease"](https://doi.org/10.1109/ACCESS.2021.3133700). IEEE Access, 2021. In press.
+> Davide Chicco, Christopher A. Lovejoy, and Luca Oneto, ["A machine learning analysis of health records of patients with chronic kidney disease at risk of cardiovascular disease"](https://doi.org/10.1109/ACCESS.2021.3133700). IEEE Access, volume 9, pages 165132-165144, 2021.
 
 ## Contacts
 The software code of this repository  was developed by [Davide Chicco](http://www.DavideChicco.it) and [Luca Oneto](https://www.lucaoneto.com). For questions or specific requests, Davide Chicco can be contacted via email at davidechicco(AT)davidechicco.it
